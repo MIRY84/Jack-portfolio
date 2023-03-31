@@ -5,17 +5,19 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from "./pages/Carouselcomp";
 import Header from "./pages/Header"
+import { Container } from 'react-bootstrap';
 
 function App() {
  
 
   return (
     <div className="App">
-      <div>
+      
+      <Container />
       <Header />
        <Carousel />
        </div>
-       </div>
+       
   )
 }
 
