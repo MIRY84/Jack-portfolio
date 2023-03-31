@@ -15,7 +15,7 @@ function App() {
       
       <Container />
       <Header />
-       <Carousel />
+      <Carousel />
        </div>
        
   )
