@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from "./pages/Carouselcomp";
 import Header from "./pages/Header"
 import { Container } from 'react-bootstrap';
+import Navbar from "./Components/Navbar"
 
 function App() {
  
@@ -14,9 +15,10 @@ function App() {
     <div className="App">
       
       <Container />
+      <Navbar />
       <Header />
       <Carousel />
-       </div>
+      </div>
        
   )
 }

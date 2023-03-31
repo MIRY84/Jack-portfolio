@@ -16,10 +16,10 @@ function Carouselcomp() {
 
   return (
     <Container>
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel fade>
       <Carousel.Item>
         <img
-          className="" width={700} height={500}
+          className="" width={800} height={500}
           src={item1}
           alt="First slide"
         />
@@ -30,7 +30,7 @@ function Carouselcomp() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="" width={700} height={500}
+          className="" width={800} height={500}
           src={item2}
           alt="Second slide"
         />
@@ -43,7 +43,7 @@ function Carouselcomp() {
       
       <Carousel.Item>
         <img
-          className="" width={700} height={500}
+          className="" width={800} height={500}
           src={item4}
           alt="Third slide"
         />
@@ -55,7 +55,7 @@ function Carouselcomp() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="" width={700} height={500}
+          className="" width={800} height={500}
           src={item5}
           alt="Third slide"
         />
