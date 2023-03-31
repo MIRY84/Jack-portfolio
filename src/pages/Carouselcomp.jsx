@@ -15,7 +15,7 @@ function Carouselcomp() {
   };
 
   return (
-    <Container>
+  <Container>
     <Carousel fade>
       <Carousel.Item>
         <img
