@@ -17,7 +17,7 @@ function Carouselcomp() {
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img
-          className="d-block w-80" width={700} height={500}
+          className="d-block w-100" width={700} height={500}
           src={item1}
           alt="First slide"
         />
