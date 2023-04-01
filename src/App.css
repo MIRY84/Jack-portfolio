@@ -6,6 +6,25 @@
   
 }
 
+@media (min-width: 326px) { 
+  
+ .carousel img{
+ 
+  width: 250px;
+  height: 300px
+  
+} 
+.App{
+  min-height: 600px;
+}
+.container{
+  min-height: auto
+}
+   
+
+  }
+ 
+
 .carousel{
   display: flex;
   text-align: center;

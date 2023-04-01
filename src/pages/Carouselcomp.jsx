@@ -23,9 +23,10 @@ function Carouselcomp() {
   return (
   <Container>
     <Carousel fade>
-      <Carousel.Item>
+      <Carousel.Item> 
+        
         <img
-          className="" width={800} height={500}
+          className="img1" width={800} height={500}
           src={item1}
           alt="First slide"
         />
@@ -36,7 +37,7 @@ function Carouselcomp() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="" width={800} height={500}
+          className="img2" width={800} height={500}
           src={item2}
           alt="Second slide"
         />
@@ -49,7 +50,7 @@ function Carouselcomp() {
       
       <Carousel.Item>
         <img
-          className="" width={800} height={500}
+          className="img3" width={800} height={500}
           src={item3}
           alt="Third slide"
         />
@@ -61,7 +62,7 @@ function Carouselcomp() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="" width={800} height={500}
+          className="img" width={800} height={500}
           src={item4}
           alt="Third slide"
         />
@@ -73,7 +74,7 @@ function Carouselcomp() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="" width={800} height={500}
+          className="img" width={800} height={500}
           src={item5}
           alt="Third slide"
         />
@@ -85,7 +86,7 @@ function Carouselcomp() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="" width={800} height={500}
+          className="img" width={800} height={500}
           src={item6}
           alt="Third slide"
         />
@@ -97,7 +98,7 @@ function Carouselcomp() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="" width={800} height={500}
+          className="img" width={800} height={500}
           src={item7}
           alt="Third slide"
         />
@@ -109,7 +110,7 @@ function Carouselcomp() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="" width={800} height={500}
+          className="img" width={800} height={500}
           src={item8}
           alt="Third slide"
         />
@@ -121,7 +122,7 @@ function Carouselcomp() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="" width={800} height={500}
+          className="img" width={800} height={500}
           src={item9}
           alt="Third slide"
         />
@@ -133,7 +134,7 @@ function Carouselcomp() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="" width={800} height={500}
+          className="img" width={800} height={500}
           src={item10}
           alt="Third slide"
         />
@@ -145,7 +146,7 @@ function Carouselcomp() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="" width={800} height={500}
+          className="img" width={800} height={500}
           src={item11}
           alt="Third slide"
         />
