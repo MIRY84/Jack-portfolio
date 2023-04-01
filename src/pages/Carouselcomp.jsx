@@ -8,9 +8,9 @@ import item5 from "../images/favorites/Octopus-final.jpg";
 import item6 from "../images/favorites/itrearchi.jpg";
 import item7 from "../images/favorites/Spirali.jpg";
 import item8 from "../images/favorites/Panda.jpg";
-import item9 from "../images/favorites/Medusa.jpg";
+import item9 from "../images/favorites/mantaraya.jpg";
 import item10 from "../images/favorites/Civetta.jpg";
-import item11 from "../images/favorites/itrearchi.jpg";
+import item11 from "../images/favorites/iltutto.jpg";
 import { Container } from 'react-bootstrap';
 
 function Carouselcomp() {
@@ -67,7 +67,7 @@ function Carouselcomp() {
         />
 
         <Carousel.Caption>
-          <h3>Octopus finale</h3>
+          <h3>Octopus Stampa a secco</h3>
           
         </Carousel.Caption>
       </Carousel.Item>
@@ -79,7 +79,7 @@ function Carouselcomp() {
         />
 
         <Carousel.Caption>
-          <h3>Octopus stampa a secco</h3>
+          <h3>Octopus finale</h3>
           
         </Carousel.Caption>
       </Carousel.Item>
@@ -115,7 +115,7 @@ function Carouselcomp() {
         />
 
         <Carousel.Caption>
-          <h3>Spirali</h3>
+          <h3>Panda</h3>
           
         </Carousel.Caption>
       </Carousel.Item>
@@ -127,7 +127,7 @@ function Carouselcomp() {
         />
 
         <Carousel.Caption>
-          <h3>Spirali</h3>
+          <h3>Manta Raya</h3>
           
         </Carousel.Caption>
       </Carousel.Item>
@@ -139,7 +139,7 @@ function Carouselcomp() {
         />
 
         <Carousel.Caption>
-          <h3>Spirali</h3>
+          <h3>Civetta</h3>
           
         </Carousel.Caption>
       </Carousel.Item>
@@ -151,7 +151,7 @@ function Carouselcomp() {
         />
 
         <Carousel.Caption>
-          <h3>Spirali</h3>
+          <h3></h3>
           
         </Carousel.Caption>
       </Carousel.Item>
