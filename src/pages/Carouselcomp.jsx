@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import item1 from "../assets/images/favorites/Medusa.jpg";
-import item2 from "../assets/images/favorites/Orca.jpg";
-import item3 from "../assets/images/favorites/Octopus.jpg";
-import item4 from "../assets/images/favorites/Octopustampsec.jpg";
-import item5 from "../assets/images/favorites/Octopus-final.jpg";
-import item6 from "../assets/images/favourites/itrearchi.jpg";
-import item7 from "../assets/images/favourites/Spirali.jpg";
-import item8 from "../assets/images/favourites/Panda.jpg";
-import item9 from "../assets/images/favourites/Medusa.jpg";
-import item10 from "../assets/images/favourites/Civetta.jpg";
-import item11 from "../assets/images/favourites/itrearchi.jpg";
+import item1 from "../images/favorites/Medusa.jpg";
+import item2 from "../images/favorites/Orca.jpg";
+import item3 from "../images/favorites/Octopus.jpg";
+import item4 from "../images/favorites/Octopustampsec.jpg";
+import item5 from "../images/favorites/Octopus-final.jpg";
+import item6 from "../images/favorites/itrearchi.jpg";
+import item7 from "../images/favorites/Spirali.jpg";
+import item8 from "../images/favorites/Panda.jpg";
+import item9 from "../images/favorites/Medusa.jpg";
+import item10 from "../images/favorites/Civetta.jpg";
+import item11 from "../images/favorites/itrearchi.jpg";
 import { Container } from 'react-bootstrap';
 
 function Carouselcomp() {

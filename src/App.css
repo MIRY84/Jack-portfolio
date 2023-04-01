@@ -2,6 +2,7 @@
   
   margin: 0 auto;
   padding: 2rem;
+  background-color: rgb(243, 228, 228);
   
 }
 
@@ -12,6 +13,10 @@
   align-items: center;
   padding: 20px;
   margin: 20px;
+}
+
+.carousel > .carousel-indicators {
+  z-index: 0;
 }
 
 .card {
