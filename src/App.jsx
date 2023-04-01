@@ -6,7 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from "./pages/Carouselcomp";
 import Header from "./pages/Header"
 import { Container } from 'react-bootstrap';
-import Navbar from "./Components/Navbar"
+import Navbar from "./Components/Navbar";
+import Stripe from "./Components/Stripe";
 
 function App() {
  
@@ -18,7 +19,9 @@ function App() {
       <Navbar />
       <Header />
       <Carousel />
-      </div>
+      <Stripe />
+    
+    </div>
        
   )
 }
