@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from "../images/jack-logo.jpeg"
+import {Link} from "react-router-dom";
 
 function ColorSchemesExample() {
   const path= window.location.pathname
@@ -17,13 +18,13 @@ function ColorSchemesExample() {
           <Nav className="me-auto">
             
             
-            <Nav.Link href="/">Home</Nav.Link>
+            <Link href="/">Home</Link>
             
            
-            <Nav.Link href="/opere">Opere</Nav.Link>
+            <Link href="/opere">Opere</Link>
             
             
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Link href="/contact">Contact</Link>
            
           </Nav>
         </Container>
