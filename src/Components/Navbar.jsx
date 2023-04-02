@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import logo from "../images/jack-logo.jpeg"
 
 function ColorSchemesExample() {
+  const path= window.location.pathname
   return (
     <>
       <Navbar bg="dark" variant="dark">
@@ -14,9 +15,16 @@ function ColorSchemesExample() {
             
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#opere">Opere</Nav.Link>
-            <Nav.Link href="#pricing">Contact</Nav.Link>
+            
+            
+            <Nav.Link href="/">Home</Nav.Link>
+            
+           
+            <Nav.Link href="/opere">Opere</Nav.Link>
+            
+            
+            <Nav.Link href="/contact">Contact</Nav.Link>
+           
           </Nav>
         </Container>
       </Navbar>
@@ -27,5 +35,7 @@ function ColorSchemesExample() {
     </>
   );
 }
+
+
 
 export default ColorSchemesExample;
