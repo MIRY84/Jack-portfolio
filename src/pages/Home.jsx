@@ -14,6 +14,9 @@ import item10 from "../images/favorites/Civetta.jpg";
 import item11 from "../images/favorites/iltutto.jpg";
 
 
+
+
+
 const Home = () => {
   return (
     <div>
@@ -22,6 +25,8 @@ const Home = () => {
       <h2 >"L'arte e' addirittura piu' bella della realta' che con il tempo svanisce."
         Leonardo Da Vinci</h2>
       <img src={jack} width={400} height={300} />
+
+     
 
 
       
