@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Carousel } from 'react-carousel-card-3d';
+
 
 
 import jack from "../images/jackyprofile.jpg";
@@ -29,29 +29,9 @@ const Home = () => {
       <h2 >"L'arte e' addirittura piu' bella della realta' che con il tempo svanisce."
         Leonardo Da Vinci</h2>
       <img src={jack} width={400} height={300} />
-      <div style={{ width: 600, height: "100vh" }}>
-        <Carousel3d
-          cards={[
-            {
-              key: 1,
-              content: <CarouselCard title="War Paradise" image={item5} />,
-            },
-            {
-              key: 2,
-              content: <CarouselCard title="Town Star" image={item2} />,
-            },
-            {
-              key: 3,
-              content: (
-                <CarouselCard title="Defense Heroes" image={item3} />
-              ),
-            },
-          ]}
-          offset={2}
-        />
+      
       </div>
-    </div>
- 
+   
 
      
 
