@@ -30,7 +30,7 @@ const Home = () => {
       <h2 >"L'arte e' addirittura piu' bella della realta' che con il tempo svanisce."
         Leonardo Da Vinci</h2>
       <img src={jack} width={400} height={300} />
-      <Carousel cols={2} rows={1} gap={10} loop>
+      <Carousel cols={2} rows={1} gap={10} >
       <Carousel.Item>
         <img width="100%" src="https://picsum.photos/800/600?random=1" />
       </Carousel.Item>
