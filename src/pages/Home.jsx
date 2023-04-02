@@ -1,6 +1,5 @@
 import React from 'react'
 import jack from "../images/jackyprofile.jpg";
-import BetterCarousel from 'better-react-carousel';
 import img1 from "../images/favorites/Spirali.jpg"
 import item1 from "../images/favorites/Medusa.jpg";
 import item2 from "../images/favorites/Orca.jpg";
@@ -17,48 +16,22 @@ import item11 from "../images/favorites/iltutto.jpg";
 const Home = () => {
   return (
     <div>
-        
-        
-        <h2 >"L'arte e' addirittura piu' bella della realta' che con il tempo svanisce."
-            Leonardo Da Vinci</h2>
-            <img src={jack} width={400} height={300} />
 
-       
-     <div>
-    
-    <BetterCarousel  cols={4} rows={1} gap={10} >
-      <BetterCarousel.Item>
-        <img width="100%" src={img1} />
-      </BetterCarousel.Item>
-      <BetterCarousel.Item>
-        <img width="100%" src={item2} />
-       
-      </BetterCarousel.Item>
-      <BetterCarousel.Item>
-        <img width="100%" src={item6} />
-        
-        
-      </BetterCarousel.Item>
-      <BetterCarousel.Item>
-      
-        <img width="100%" src={item10} />
-        </BetterCarousel.Item>
-        <BetterCarousel.Item>
-        <img width="100%" src={item11} />
-        {/* anything you want to show in the grid */}
-      </BetterCarousel.Item>
-      <BetterCarousel.Item>
-      <img width="100%" src={item9} />
-        {/* anything you want to show in the grid */}
-      </BetterCarousel.Item>
-      {/* ... */}
-    </BetterCarousel>
-    
+
+      <h2 >"L'arte e' addirittura piu' bella della realta' che con il tempo svanisce."
+        Leonardo Da Vinci</h2>
+      <img src={jack} width={400} height={300} />
+
+
+      <div>
+
+
+
+      </div>
     </div>
-    </div>
-       
-      
-  
+
+
+
   )
 }
 
