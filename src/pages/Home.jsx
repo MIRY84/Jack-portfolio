@@ -16,7 +16,7 @@ import item8 from "../images/favorites/Panda.jpg";
 import item9 from "../images/favorites/mantaraya.jpg";
 import item10 from "../images/favorites/Civetta.jpg";
 import item11 from "../images/favorites/iltutto.jpg";
-import Carousel from 'better-react-carousel'
+
 
 
 
@@ -30,21 +30,7 @@ const Home = () => {
       <h2 >"L'arte e' addirittura piu' bella della realta' che con il tempo svanisce."
         Leonardo Da Vinci</h2>
       <img src={jack} width={400} height={300} />
-      <Carousel cols={2} rows={1} gap={10} >
-      <Carousel.Item>
-        <img width="100%" src="https://picsum.photos/800/600?random=1" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img width="100%" src="https://picsum.photos/800/600?random=2" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img width="100%" src="https://picsum.photos/800/600?random=3" />
-      </Carousel.Item>
-      <Carousel.Item>
-        {/* anything you want to show in the grid */}
-      </Carousel.Item>
-      {/* ... */}
-    </Carousel>
+     
       
       </div>
    
