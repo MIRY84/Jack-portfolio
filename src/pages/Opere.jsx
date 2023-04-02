@@ -22,7 +22,13 @@ function Carouselcomp() {
 
   return (
   <Container>
-    <Carousel fade>
+    <Carousel arrows={true}
+  dotsNavigation={true}
+  dotsNavigationInside={true}
+  width={"1200px"}
+  height={"400px"}
+  carouselStyle={"3d"}
+>  
       <Carousel.Item> 
         
         <img

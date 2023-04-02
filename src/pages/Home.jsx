@@ -1,4 +1,5 @@
 import React from 'react'
+
 import jack from "../images/jackyprofile.jpg";
 import img1 from "../images/favorites/Spirali.jpg"
 import item1 from "../images/favorites/Medusa.jpg";
@@ -25,6 +26,7 @@ const Home = () => {
       <h2 >"L'arte e' addirittura piu' bella della realta' che con il tempo svanisce."
         Leonardo Da Vinci</h2>
       <img src={jack} width={400} height={300} />
+ 
 
      
 
