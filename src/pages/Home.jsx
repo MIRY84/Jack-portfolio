@@ -1,6 +1,6 @@
 import React from 'react'
 import jack from "../images/jackyprofile.jpg";
-import Carousel from 'better-react-carousel';
+import BetterCarousel from 'better-react-carousel';
 import img1 from "../images/favorites/Spirali.jpg"
 import item1 from "../images/favorites/Medusa.jpg";
 import item2 from "../images/favorites/Orca.jpg";
@@ -26,33 +26,33 @@ const Home = () => {
        
      <div>
     
-    <Carousel  cols={4} rows={1} gap={10} >
-      <Carousel.Item>
+    <BetterCarousel  cols={4} rows={1} gap={10} >
+      <BetterCarousel.Item>
         <img width="100%" src={img1} />
-      </Carousel.Item>
-      <Carousel.Item>
+      </BetterCarousel.Item>
+      <BetterCarousel.Item>
         <img width="100%" src={item2} />
        
-      </Carousel.Item>
-      <Carousel.Item>
+      </BetterCarousel.Item>
+      <BetterCarousel.Item>
         <img width="100%" src={item6} />
         
         
-      </Carousel.Item>
-      <Carousel.Item>
+      </BetterCarousel.Item>
+      <BetterCarousel.Item>
       
         <img width="100%" src={item10} />
-        </Carousel.Item>
-        <Carousel.Item>
+        </BetterCarousel.Item>
+        <BetterCarousel.Item>
         <img width="100%" src={item11} />
         {/* anything you want to show in the grid */}
-      </Carousel.Item>
-      <Carousel.Item>
+      </BetterCarousel.Item>
+      <BetterCarousel.Item>
       <img width="100%" src={item9} />
         {/* anything you want to show in the grid */}
-      </Carousel.Item>
+      </BetterCarousel.Item>
       {/* ... */}
-    </Carousel>
+    </BetterCarousel>
     
     </div>
     </div>
