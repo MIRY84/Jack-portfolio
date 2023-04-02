@@ -11,16 +11,10 @@
  .carousel img{
  
   width: 250px;
-  height: 300px
+ 
   
 } 
-.App{
-  min-height: 600px;
-}
-.container{
-  min-height: auto
-}
-   
+
 
   }
  
