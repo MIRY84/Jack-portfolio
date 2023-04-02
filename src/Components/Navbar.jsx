@@ -18,13 +18,39 @@ function ColorSchemesExample() {
           <Nav className="me-auto">
             
             
-            <Nav.Link to="/">Home</Nav.Link>
+            <NavLink to="/"
+            className={({ isActive}) =>
+            isActive ? 'nav-link active' : 'nav-link'
+          }
+          >
+            Home
+
+            </NavLink>
+
             
            
-            <Nav.Link to="/opere">Opere</Nav.Link>
+            
+           
+            <NavLink
+            to="/opere"
+              
+              className={({ isActive}) =>
+              isActive ? 'nav-link active' : 'nav-link'
+            }
+            >
+              Opere
+
+              </NavLink>
             
             
-            <Nav.Link to="/contact">Contact</Nav.Link>
+            <NavLink to="/contact"
+            className={({ isActive}) =>
+            isActive ? 'nav-link active' : 'nav-link'
+          }
+          >
+            
+            
+            Contact</NavLink>
            
           </Nav>
         </Container>
