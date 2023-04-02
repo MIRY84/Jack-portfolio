@@ -18,13 +18,13 @@ function ColorSchemesExample() {
           <Nav className="me-auto">
             
             
-            <Link href="/">Home</Link>
+            <Link to="/">Home</Link>
             
            
-            <Link href="/opere">Opere</Link>
+            <Link to="/opere">Opere</Link>
             
             
-            <Link href="/contact">Contact</Link>
+            <Link to="/contact">Contact</Link>
            
           </Nav>
         </Container>
