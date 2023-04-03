@@ -30,6 +30,7 @@ import item8 from "../images/favorites/Panda.jpg";
 import item9 from "../images/favorites/mantaraya.jpg";
 import item10 from "../images/favorites/Civetta.jpg";
 import item11 from "../images/favorites/iltutto.jpg";
+import { Container, Row, Col } from "react-bootstrap";
 
 
 
@@ -41,14 +42,21 @@ const Home = () => {
   return (
     <div>
 
-      <section>
-      <h2 >"L'arte e' addirittura piu' bella della realta' che con il tempo svanisce."
-        Leonardo Da Vinci</h2>
+      <Container>
+        <Row>
+          <Col sm={12}>
+            <h2>"L'arte e' addirittura piu' bella della realta' che con il tempo svanisce."</h2>
+             <h3>Leonardo Da Vinci</h3>
+          </Col>
+        </Row>
+        <Row>
+        <Col sm={6}>
         <img width={400} src={jack} />
-        </section>
+        </Col>
+        
       
      
-         <section>
+         <Col sm={6}>
           <Swiper 
             // install Swiper modules
             effect={"coverflow"}
@@ -106,7 +114,9 @@ const Home = () => {
                </SwiperSlide>
             ...
           </Swiper>
-          </section>
+          </Col>
+          </Row>
+          </Container>
           </div>
         );
       };
