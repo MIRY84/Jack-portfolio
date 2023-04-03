@@ -1,13 +1,18 @@
-import React from 'react'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-      
-      // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+import React, { useRef, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+
+
+
+
+
+// import required modules
+import { EffectCoverflow, Pagination } from "swiper";
 
 
 
@@ -31,41 +36,58 @@ import item11 from "../images/favorites/iltutto.jpg";
 
 
 
+
 const Home = () => {
   return (
     <div>
 
-
+      <section>
       <h2 >"L'arte e' addirittura piu' bella della realta' che con il tempo svanisce."
         Leonardo Da Vinci</h2>
-      <img src={jack} width={400} height={300} />
+        <img width={400} src={jack} />
+        </section>
+      
      
-
-          <Swiper
+         <section>
+          <Swiper 
             // install Swiper modules
-            modules={[Navigation, Pagination, Scrollbar, A11y]}
-            spaceBetween={5}
-            slidesPerView={5}
-            navigation
-            pagination={{ clickable: true }}
-            scrollbar={{ draggable: true }}
-            onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log('slide change')}
+            effect={"coverflow"}
+            grabCursor={true}
+            centeredSlides={true}
+            slidesPerView={"auto"}
+            coverflowEffect={{
+              rotate: 50,
+              
+             
+            }}
+            pagination={true}
+            modules={[EffectCoverflow, Pagination]}
+            className="mySwiper"
           >
+          
             <SwiperSlide>
-              <img width={200} height={200}
+              <img 
                src={item1} />
                </SwiperSlide>
             <SwiperSlide>
-            <img width={200} height={200}
+            <img 
                src={item2} />
               Spirali</SwiperSlide>
-            <SwiperSlide><img width={200} height={200}
+            <SwiperSlide><img 
                src={item3} /></SwiperSlide>
-            <SwiperSlide><img width={200} height={200}
+            <SwiperSlide><img 
                src={item4} /></SwiperSlide>
+              <SwiperSlide>
+              <img 
+               src={item1} />
+               </SwiperSlide>
+               <SwiperSlide>
+              <img 
+               src={item1} />
+               </SwiperSlide>
             ...
           </Swiper>
+          </section>
           </div>
         );
       };

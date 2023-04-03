@@ -30,9 +30,23 @@
   
 } 
 
+
  
  
   
+}
+.swiper {
+  width: 500px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+.swiper-slide img {
+  display: flex;
+  width:500px;
+  height:300px
 }
 
 
