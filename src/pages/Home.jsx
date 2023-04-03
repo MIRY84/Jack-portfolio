@@ -1,18 +1,20 @@
 
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css/effect-cube";
+import "swiper/css/pagination";
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
+
 
 
 
 
 
 // import required modules
-import { EffectCoverflow, Pagination } from "swiper";
+
+import { EffectCube, Pagination } from "swiper";
 
 
 
@@ -59,63 +61,40 @@ const Home = () => {
       
      
          <Col sm={6}>
-          <Swiper 
-            // install Swiper modules
-            effect={"coverflow"}
-            grabCursor={true}
-            centeredSlides={true}
-            slidesPerView={"auto"}
-            coverflowEffect={{
-              rotate: 50,
-              
-             
-            }}
-            pagination={true}
-            modules={[EffectCoverflow, Pagination]}
-            breakpoints={{
-              350:{
-                slidesPerView:1,
-                spaceBetween:10,
-              },
-              640: {
-                slidesPerView: 2,
-                spaceBetween: 20,
-              },
-              768: {
-                slidesPerView: 4,
-                spaceBetween: 40,
-              },
-              1024: {
-                slidesPerView: 5,
-                spaceBetween: 50,
-              },
-            }}
-            
-            className="mySwiper"
-          >
-          
-            <SwiperSlide>
-              <img 
-               src={item1} />
-               </SwiperSlide>
-            <SwiperSlide>
-            <img 
-               src={item2} />
-              Spirali</SwiperSlide>
-            <SwiperSlide><img 
-               src={item3} /></SwiperSlide>
-            <SwiperSlide><img 
-               src={item4} /></SwiperSlide>
-              <SwiperSlide>
-              <img 
-               src={item1} />
-               </SwiperSlide>
-               <SwiperSlide>
-              <img 
-               src={item1} />
-               </SwiperSlide>
+         <Swiper
+        effect={"cube"}
+        grabCursor={true}
+        cubeEffect={{
+          shadow: true,
+          slideShadows: true,
+          shadowOffset: 20,
+          shadowScale: 0.94,
+        }}
+        pagination={true}
+        modules={[EffectCube, Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <img src={item1} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={item2} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={item3} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={item4} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={item5} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={item6} />
+        </SwiperSlide>
+      </Swiper>
             ...
-          </Swiper>
+        
           </Col>
           </Row>
           </Container>
