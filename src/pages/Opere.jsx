@@ -23,16 +23,22 @@ import item8 from "../images/favorites/Panda.jpg";
 import item9 from "../images/favorites/mantaraya.jpg";
 import item10 from "../images/favorites/Civetta.jpg";
 import item11 from "../images/favorites/iltutto.jpg";
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col} from 'react-bootstrap';
 
 function Carouselcomp() {
   
 
   return (
-    <div>
-      <Container>
-        <h2>Le mie opere</h2>
-    <Swiper 
+    
+      <Container className="fluid">
+        <Row>
+         <Col sm={12}>
+        <h1 className="text-center">Le mie opere</h1>
+        </Col>
+        </Row>
+        <Row>
+       <Col sm={12}>
+        <Swiper 
         width={800}
         height={500}
         
@@ -43,7 +49,7 @@ function Carouselcomp() {
         slidesPerView={"auto"}
         coverflowEffect={{
           rotate: 50,
-          stretch: 3,
+          stretch: 0,
           depth: 100,
           modifier: 1,
           slideShadows: true,
@@ -53,7 +59,8 @@ function Carouselcomp() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img width={700} height={500} src={item1} />
+          <img  src={item1} />
+          <div className="slide-captions text-center"><h3>Medusa</h3></div>
         </SwiperSlide>
         <SwiperSlide>
           <img className="relative" src={item2} />
@@ -80,8 +87,10 @@ function Carouselcomp() {
           <img src={item9} />
         </SwiperSlide>
       </Swiper>
+      </Col>
+      </Row>
       </Container>
-      </div>
+      
   
   );
 }

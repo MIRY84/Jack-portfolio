@@ -86,16 +86,17 @@
   color: #888;
 }
 
-.center{
-  display: flex;
-  padding-top: 20px ;
-  margin-bottom: 10px;
-  width: 100%;
-  height: 100%;
-}
+
  .swiper-coverflow{
-  width: 600px;
-  height: 300px;
-  object-fit: cover;
+  min-width: 700px;
+  min-height: 500px;
+ 
+ }
+
+ .swiper-coverflow img{
+  min-width: 600px;
+  min-height: 400px;
+  display: flex;
+  
  }
 
