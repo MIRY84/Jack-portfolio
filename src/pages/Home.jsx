@@ -80,7 +80,7 @@ const Home = () => {
                 spaceBetween: 50,
               },
             }}
-          
+            
             className="mySwiper"
           >
           
