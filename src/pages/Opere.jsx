@@ -1,5 +1,17 @@
-import React, { useState } from 'react';
-import Carousel from 'react-bootstrap/Carousel';
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+
+
+
+// import required modules
+import { EffectCoverflow, Pagination } from "swiper";
+
 import item1 from "../images/favorites/Medusa.jpg";
 import item2 from "../images/favorites/Orca.jpg";
 import item3 from "../images/favorites/Octopus.jpg";
@@ -14,156 +26,63 @@ import item11 from "../images/favorites/iltutto.jpg";
 import { Container } from 'react-bootstrap';
 
 function Carouselcomp() {
-  const [index, setIndex] = useState(0);
-
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex);
-  };
+  
 
   return (
-  <Container>
-    <Carousel arrows={true}
-  dotsNavigation={true}
-  dotsNavigationInside={true}
-  width={"1200px"}
-  height={"400px"}
-  carouselStyle={"3d"}
->  
-      <Carousel.Item> 
+    <div>
+      <Container>
+        <h2>Le mie opere</h2>
+    <Swiper 
+        width={800}
+        height={500}
         
-        <img
-          className="img1" width={800} height={500}
-          src={item1}
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>Medusa</h3>
-         
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="img2" width={800} height={500}
-          src={item2}
-          alt="Second slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Orca</h3>
-          
-        </Carousel.Caption>
-      </Carousel.Item>
-      
-      <Carousel.Item>
-        <img
-          className="img3" width={800} height={500}
-          src={item3}
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Octopus</h3>
-          
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="img" width={800} height={500}
-          src={item4}
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Octopus Stampa a secco</h3>
-          
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="img" width={800} height={500}
-          src={item5}
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Octopus finale</h3>
-          
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="img" width={800} height={500}
-          src={item6}
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>I tre archi</h3>
-          
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="img" width={800} height={500}
-          src={item7}
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Spirali</h3>
-          
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="img" width={800} height={500}
-          src={item8}
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Panda</h3>
-          
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="img" width={800} height={500}
-          src={item9}
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Manta Raya</h3>
-          
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="img" width={800} height={500}
-          src={item10}
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Civetta</h3>
-          
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="img" width={800} height={500}
-          src={item11}
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3></h3>
-          
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-    </Container>
+       
+        effect={"coverflow"}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={"auto"}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 3,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        pagination={true}
+        modules={[EffectCoverflow, Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <img width={700} height={500} src={item1} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="relative" src={item2} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={item3} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={item4} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={item5} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={item6} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={item7} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={item8} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={item9} />
+        </SwiperSlide>
+      </Swiper>
+      </Container>
+      </div>
+  
   );
 }
 

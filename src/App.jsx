@@ -7,7 +7,6 @@ import Opere from './pages/Opere'
 import Header from "./pages/Header"
 import { Container } from 'react-bootstrap';
 import Navbar from "./Components/Navbar";
-import Stripe from "./Components/Stripe";
 import { Route, Routes } from "react-router-dom"
 import Home from './pages/Home';
 import Contact from './pages/Contact'
