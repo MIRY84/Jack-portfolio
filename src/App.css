@@ -8,7 +8,7 @@
 
 @media (max-width: 450px) { 
   
- .carousel img{
+ .carousel img, .swiper-slide img, .jacky {
   display: flex;
   align-items: center;
   

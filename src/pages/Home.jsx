@@ -45,13 +45,15 @@ const Home = () => {
       <Container>
         <Row>
           <Col sm={12}>
-            <h2>"L'arte e' addirittura piu' bella della realta' che con il tempo svanisce."</h2>
-             <h3>Leonardo Da Vinci</h3>
+            <h2 className="text-center">"L'arte e' addirittura piu' bella della realta' che con il tempo svanisce."
+             Leonardo Da Vinci</h2>
           </Col>
         </Row>
         <Row>
         <Col sm={6}>
-        <img width={400} src={jack} />
+         
+        <img className="jacky" width={400} src={jack} />
+       
         </Col>
         
       
