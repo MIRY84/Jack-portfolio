@@ -100,7 +100,7 @@ const Home = () => {
           </Row>
           <Row>
             <Col sm={12}>
-            <p>Giacomo Dimichino
+            <p><span fontWeight style="bold">Giacomo Dimichino</span>
 Nato a Bari (BA) il 03/05/1991, consegue il diploma di maturità artistica “prima
 sezione Accademia” presso il Liceo Artistico Statale “C. Levi” di Matera (MT) nel
 2009, dove frequenta il corso di “Fumetto e Disegno Caricaturale” con Claudio
