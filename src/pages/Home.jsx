@@ -1,4 +1,13 @@
 import React from 'react'
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+      
+      // Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 
 
@@ -31,8 +40,35 @@ const Home = () => {
         Leonardo Da Vinci</h2>
       <img src={jack} width={400} height={300} />
      
-      
-      </div>
+
+          <Swiper
+            // install Swiper modules
+            modules={[Navigation, Pagination, Scrollbar, A11y]}
+            spaceBetween={5}
+            slidesPerView={5}
+            navigation
+            pagination={{ clickable: true }}
+            scrollbar={{ draggable: true }}
+            onSwiper={(swiper) => console.log(swiper)}
+            onSlideChange={() => console.log('slide change')}
+          >
+            <SwiperSlide>
+              <img width={200} height={200}
+               src={item1} />
+               </SwiperSlide>
+            <SwiperSlide>
+            <img width={200} height={200}
+               src={item2} />
+              Spirali</SwiperSlide>
+            <SwiperSlide><img width={200} height={200}
+               src={item3} /></SwiperSlide>
+            <SwiperSlide><img width={200} height={200}
+               src={item4} /></SwiperSlide>
+            ...
+          </Swiper>
+          </div>
+        );
+      };
    
 
      
@@ -45,9 +81,5 @@ const Home = () => {
     
    
 
-
-
-  )
-}
 
 export default Home
