@@ -62,7 +62,7 @@ const Home = () => {
       
      
          <Col sm={6}>
-         <Swiper
+         <Swiper 
         effect={"cube"}
         grabCursor={true}
         cubeEffect={{
@@ -76,22 +76,22 @@ const Home = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={item1} />
+          <img width={400} height={300} src={item1} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={item2} />
+          <img width={400} height={300} src={item2} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={item3} />
+          <img width={400} height={300} src={item3} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={item4} />
+          <img width={400} height={300} src={item4} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={item5} />
+          <img width={400} height={300} src={item5} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={item6} />
+          <img width={400} height={300} src={item6} />
         </SwiperSlide>
       </Swiper>
             ...

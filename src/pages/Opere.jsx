@@ -39,8 +39,8 @@ function Carouselcomp() {
         <Row>
        <Col sm={12}>
         <Swiper 
-        width={800}
-        height={500}
+       
+       
         
        
         effect={"coverflow"}
@@ -58,30 +58,30 @@ function Carouselcomp() {
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <img  src={item1} />
+        <SwiperSlide >
+          <img src={item1} />
           <div className="slide-captions text-center"><h3>Medusa</h3></div>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="relative" src={item2} />
+          <img src={item2} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={item3} />
+          <img width={300}src={item3} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={item4} />
+          <img width={300} height={400} src={item4} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={item5} />
+          <img width={300} height={400} src={item5} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={item6} />
+          <img width={300} height={400} src={item6} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={item7} />
+          <img width={300} height={400} src={item7} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={item8} />
+          <img width={500} src={item8} />
         </SwiperSlide>
         <SwiperSlide>
           <img src={item9} />
