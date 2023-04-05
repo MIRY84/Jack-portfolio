@@ -80,37 +80,47 @@ function Carouselcomp() {
       >
         <SwiperSlide >
           <img src={item1} />
-          <div className="slide-captions text-center"><h3>Medusa</h3></div>
+          <div className="slide-title text-center">MEDUSA</div>
         </SwiperSlide>
         <SwiperSlide>
           <img src={item2} />
+          <div className="slide-title text-center">ORCA</div>
         </SwiperSlide>
         <SwiperSlide>
           <img src={item3} />
+          <div className="slide-title text-center">ORCA</div>
         </SwiperSlide>
         <SwiperSlide>
           <img  src={item4} />
+          <div className="slide-title text-center">OCTOPUS</div>
         </SwiperSlide>
         <SwiperSlide>
           <img  src={item5} />
+          <div className="slide-title text-center">OCTOPUS "stampa a secco"</div>
         </SwiperSlide>
         <SwiperSlide>
           <img  src={item6} />
+          <div className="slide-title text-center"></div>
         </SwiperSlide>
         <SwiperSlide>
           <img  src={item7} />
+          <div className="slide-title text-center"></div>
         </SwiperSlide>
         <SwiperSlide>
           <img  src={item8} />
+          <div className="slide-title text-center"></div>
         </SwiperSlide>
         <SwiperSlide>
           <img src={item9} />
+          <div className="slide-title text-center"></div>
         </SwiperSlide>
         <SwiperSlide>
           <img  src={item10} />
+          <div className="slide-title text-center"></div>
         </SwiperSlide>
         <SwiperSlide>
           <img src={item11} />
+          <div className="slide-title text-center"></div>
         </SwiperSlide>
         <SwiperSlide>
           <img  src={item12} />

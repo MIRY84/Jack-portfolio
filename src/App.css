@@ -97,8 +97,18 @@
   overflow-x: hidden;
 
 }
+.slide-title {
+  
+ 
+  
+  color: black;
+  font-weight: bold;
+  font-size:30px;
+  font-family: 'Mark Bold' !important;
+}
 }
 @media (min-width: 750px) {
+ 
 .swiper-coverflow img{
   
   padding-right: 0;
@@ -124,6 +134,15 @@
 
 .swiper, .swiper-slide img{
   width: 500px;
+}
+.slide-title {
+  
+ 
+  
+  color: black;
+  font-weight: bold;
+  font-size:30px;
+  font-family: 'Mark Bold' !important;
 }
 }
 
