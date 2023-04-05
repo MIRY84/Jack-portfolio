@@ -66,22 +66,22 @@ function Carouselcomp() {
           <img src={item2} />
         </SwiperSlide>
         <SwiperSlide>
-          <img width={300}src={item3} />
+          <img src={item3} />
         </SwiperSlide>
         <SwiperSlide>
-          <img width={300} height={400} src={item4} />
+          <img  src={item4} />
         </SwiperSlide>
         <SwiperSlide>
-          <img width={300} height={400} src={item5} />
+          <img  src={item5} />
         </SwiperSlide>
         <SwiperSlide>
-          <img width={300} height={400} src={item6} />
+          <img  src={item6} />
         </SwiperSlide>
         <SwiperSlide>
-          <img width={300} height={400} src={item7} />
+          <img  src={item7} />
         </SwiperSlide>
         <SwiperSlide>
-          <img width={500} src={item8} />
+          <img  src={item8} />
         </SwiperSlide>
         <SwiperSlide>
           <img src={item9} />
