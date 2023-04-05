@@ -129,8 +129,13 @@ function Carouselcomp() {
         </SwiperSlide>
         
         <SwiperSlide>
+         
+          
           <img  src={item14} />
           <div className="slide-title text-center">CANTO SMERALDINO</div>
+         
+          
+           
         </SwiperSlide>
         <SwiperSlide>
           <img src={item15} />

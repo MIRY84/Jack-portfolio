@@ -11,7 +11,7 @@
   .swiper, .swiper-coverflow img, .carousel img, .swiper-slide img, .jacky {
   display: flex;
   align-items: center;
-  
+  object-fit: contain;
   align-content: center;
   
   width: 100%;
@@ -77,6 +77,7 @@
 @media (max-width: 750px) {
 .swiper-coverflow img{
   
+  
   padding-right: 0;
   margin-right: 1px;
   margin-left: 3px;
@@ -88,7 +89,7 @@
 }
 .swiper-coverflow {
   display: flex;
-  align-items: center;
+  
   padding-right: 2px;
   margin-right: 5px;
   padding-right: 1px;
@@ -133,7 +134,8 @@
 }
 
 .swiper, .swiper-slide img{
-  width: 500px;
+  object-fit:contain;
+  width: 700px;
 }
 .slide-title {
   
