@@ -24,7 +24,7 @@ import item9 from "../images/favorites/Panda.jpg";
 import item10 from "../images/favorites/mantaraya.jpg";
 import item11 from "../images/favorites/Civetta.jpg";
 import item12 from "../images/favorites/conchiglia.jpg";
-import item13 from "../images/favorites/equilibriotiger.jpg";
+
 import item14 from "../images/favorites/cantosmeraldino.jpg";
 import item15 from "../images/favorites/Hippocampus.jpg";
 import item16 from "../images/favorites/Ex libris Jordan Petkov (corallo).jpg";
@@ -96,23 +96,24 @@ function Carouselcomp() {
         </SwiperSlide>
         <SwiperSlide>
           <img  src={item5} />
-          <div className="slide-title text-center">OCTOPUS "stampa a secco"</div>
+          <div className="slide-title text-center">OCTOPUS:stampa a secco</div>
+         
         </SwiperSlide>
         <SwiperSlide>
           <img  src={item6} />
-          <div className="slide-title text-center"></div>
+          <div className="slide-title text-center">OCTOPUS</div>
         </SwiperSlide>
         <SwiperSlide>
           <img  src={item7} />
-          <div className="slide-title text-center"></div>
+          <div className="slide-title text-center">I tre archi</div>
         </SwiperSlide>
         <SwiperSlide>
           <img  src={item8} />
-          <div className="slide-title text-center"></div>
+          <div className="slide-title text-center">SPIRALI</div>
         </SwiperSlide>
         <SwiperSlide>
           <img src={item9} />
-          <div className="slide-title text-center"></div>
+          <div className="slide-title text-center">PANDA</div>
         </SwiperSlide>
         <SwiperSlide>
           <img  src={item10} />
@@ -120,28 +121,32 @@ function Carouselcomp() {
         </SwiperSlide>
         <SwiperSlide>
           <img src={item11} />
-          <div className="slide-title text-center"></div>
+          <div className="slide-title text-center">CIVETTA</div>
         </SwiperSlide>
         <SwiperSlide>
           <img  src={item12} />
+          <div className="slide-title text-center">NAUTILUS</div>
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={item13} />
-        </SwiperSlide>
+        
         <SwiperSlide>
           <img  src={item14} />
+          <div className="slide-title text-center">CANTO SMERALDINO</div>
         </SwiperSlide>
         <SwiperSlide>
           <img src={item15} />
+          <div className="slide-title text-center">HIPPOCAMPUS</div>
         </SwiperSlide>
         <SwiperSlide>
           <img  src={item16} />
+          <div className="slide-title text-center">EX LIBRIS JORDAN PETKOV</div>
         </SwiperSlide>
         <SwiperSlide>
           <img src={item17} />
+          <div className="slide-title text-center">MARE IN TEMPESTA</div>
         </SwiperSlide>
         <SwiperSlide>
           <img  src={item18} />
+          <div className="slide-title text-center">MARE IN TEMPESTA</div>
         </SwiperSlide>
         <SwiperSlide>
           <img src={item19} />
