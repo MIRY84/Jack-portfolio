@@ -14,7 +14,7 @@ const Footer = () => {
         <a href='http://www.instagram.com/giacomo_dimichino/'role="button" className="btn btn-link" >
          <FaInstagram />
           </a>
-          <a href='http://www.facebook.com/profile.php?id=1000636288054'role="button" className="btn btn-link" >
+          <a href='http://www.facebook.com/giacomodimichinoart'role="button" className="btn btn-link" >
         <FaFacebook />
         </a>
      </div>
