@@ -12,8 +12,13 @@ const Footer = () => {
      <div>
      
        
-        <FaInstagram />
+       
+        <a href='http://www.instagram.com/giacomo_dimichino/'role="button" className="btn btn-link" >
+         <FaInstagram />
+          </a>
+          <a href='http://www.facebook.com/profile.php?id=1000636288054'role="button" className="btn btn-link" >
         <FaFacebook />
+        </a>
      </div>
      <p> &copy; 2023 All rights reserved</p>
      </div>

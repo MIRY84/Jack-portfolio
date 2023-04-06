@@ -19,7 +19,7 @@
   padding-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
-  
+ 
  
   margin-bottom: 10px;
   
@@ -31,6 +31,9 @@
 
   
   
+}
+.swiper-pagination >.swiper-pagination-bullet{
+  display: none;
 } 
 
 
@@ -146,6 +149,9 @@
   font-size:30px;
   font-family: 'Mark Bold' !important;
 }
+.swiper-pagination >.swiper-pagination-bullet{
+  display: none;
+} 
 }
 
 
