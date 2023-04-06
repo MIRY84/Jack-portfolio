@@ -157,10 +157,28 @@
     display: none;
   }
 }
-.swiper-button-prev, .swiper-button-next{
+.swiper> .swiper-button-prev, .swiper-button-next{
   display: flex;
-  padding-bottom: 100px;
-  padding-top: 0px ;
+  position: absolute;
+  display: flex;
+  top: var(--swiper-navigation-top-offset,45%);
+  color:pink;
+  width: calc(var(--swiper-navigation-size)/ 8*1)
+  
+  
+  
+  
+ 
+}
+.swiper> .swiper-button-next{
+  display: flex;
+  position: absolute;
+  display: flex;
+  top: var(--swiper-navigation-top-offset,45%);
+  color:pink;
+  width: calc(var(--swiper-navigation-size)/ 8*1);
+  
+  
   
  
 }
