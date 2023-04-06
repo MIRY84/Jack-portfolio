@@ -12,46 +12,23 @@ function ColorSchemesExample() {
         <Container>
           <Navbar.Brand>
             <img className="" width={50} height={50}
-            src={logo} />
-            
+            src={logo} />            
           </Navbar.Brand>
           <Nav className="me-auto">
-            
-            
-            <NavLink to="/"
-            className={({ isActive}) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-          >
-            Home
-
-            </NavLink>
-
-            
-           
-            
-           
-            <NavLink
-            to="/opere"
-              
-              className={({ isActive}) =>
+            <NavLink to="/" className={({ isActive}) =>
               isActive ? 'nav-link active' : 'nav-link'
-            }
+              }
+            >
+              Home
+            </NavLink>
+            <NavLink
+            to="/opere" className={({ isActive}) =>
+              isActive ? 'nav-link active' : 'nav-link'
+              }
             >
               Opere
-
-              </NavLink>
-            
-            
-            <NavLink to="/contact"
-            className={({ isActive}) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-          >
-            
-            
-            Contact</NavLink>
-           
+            </NavLink>     
+            <a className='nav-link' onClick={() => window.location.replace("#about")}>Contato</a>
           </Nav>
         </Container>
       </Navbar>

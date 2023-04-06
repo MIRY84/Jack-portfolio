@@ -10,9 +10,7 @@ const Footer = () => {
   return (
     <div className= "footer text-center">
      <div>
-     
-       
-       
+      <h2 id="about">Contact Me</h2>
         <a href='http://www.instagram.com/giacomo_dimichino/'role="button" className="btn btn-link" >
          <FaInstagram />
           </a>
