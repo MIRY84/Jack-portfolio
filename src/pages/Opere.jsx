@@ -70,7 +70,7 @@ function Carouselcomp() {
             }}
             navigation={true}
             pagination={true}
-            modules={[EffectCoverflow, Pagination, Navigation]}
+            modules={[EffectCoverflow, Pagination, Navigation]}//added arrows
             className="mySwiper"
           >
             <SwiperSlide>
