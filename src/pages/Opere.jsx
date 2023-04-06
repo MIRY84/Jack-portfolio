@@ -117,7 +117,7 @@ function Carouselcomp() {
         </SwiperSlide>
         <SwiperSlide>
           <img  src={item10} />
-          <div className="slide-title text-center"></div>
+          <div className="slide-title text-center">MANTA RAYA</div>
         </SwiperSlide>
         <SwiperSlide>
           <img src={item11} />
@@ -132,7 +132,7 @@ function Carouselcomp() {
          
           
           <img  src={item14} />
-          <div className="slide-title text-center">CANTO SMERALDINO</div>
+          <div className="slide-title text-center">CANTO DELLO SMERALDINO</div>
          
           
            
@@ -155,30 +155,39 @@ function Carouselcomp() {
         </SwiperSlide>
         <SwiperSlide>
           <img src={item19} />
+          <div className="slide-title text-center">ARA MACAO</div>
         </SwiperSlide>
         <SwiperSlide>
           <img  src={item20} />
+          <div className="slide-title text-center">LIBRO D'ARTISTA</div>
         </SwiperSlide>
         <SwiperSlide>
           <img src={item21} />
+          <div className="slide-title text-center">ATTRAZIONE SFERICA</div>
         </SwiperSlide>
         <SwiperSlide>
           <img  src={item22} />
+          <div className="slide-title text-center">PEACOCK</div>
         </SwiperSlide>
         <SwiperSlide>
           <img src={item23} />
+          <div className="slide-title text-center">PEACOCK</div>
         </SwiperSlide>
         <SwiperSlide>
           <img  src={item24} />
+          <div className="slide-title text-center">THE EYE OF GOD</div>
         </SwiperSlide>
         <SwiperSlide>
           <img src={item25} />
+          <div className="slide-title text-center">ARGO PANOPTES</div>
         </SwiperSlide>
         <SwiperSlide>
           <img  src={item26} />
+          <div className="slide-title text-center">AXOLOTL</div>
         </SwiperSlide>
         <SwiperSlide>
           <img src={item27} />
+          <div className="slide-title text-center">COME TUTTO EBBE INIZIO</div>
         </SwiperSlide>
         <SwiperSlide>
           <img  src={item28} />
