@@ -29,7 +29,6 @@ import { Container, Row, Col } from "react-bootstrap";
 const Home = () => {
   return (
     <div>
-
       <Container>
         <Row>
           <Col sm={12}>
