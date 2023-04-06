@@ -19,6 +19,9 @@ const Footer = () => {
           <a href='http://www.facebook.com/giacomodimichinoart'role="button" className="btn btn-link" >
         <FaFacebook />
         </a>
+        <a href="giacomo.dimichino@gmail.com" role="button" className="btn btn-link" >
+        <AiTwotoneMail />
+        </a>
      </div>
      <p> &copy; 2023 All rights reserved</p>
      </div>
