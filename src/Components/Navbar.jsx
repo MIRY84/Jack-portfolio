@@ -28,7 +28,9 @@ function ColorSchemesExample() {
             >
               Opere
             </NavLink>     
-            <a className='nav-link' onClick={() => window.location.replace("#about")}>Contato</a> 
+            <a className='nav-link' onClick={() => window.location.replace("#about")}>
+              Contact
+            </a> 
           </Nav>
         </Container>
       </Navbar>

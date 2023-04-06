@@ -8,16 +8,15 @@ import {AiTwotoneMail} from 'react-icons/ai';
 
 const Footer = () => {
   return (
-    <div className= "footer text-center">
+    <div id="about" className= "footer text-center">
      <div>
-      <h2 id="about">Contact Me</h2>
         <a href='http://www.instagram.com/giacomo_dimichino/'role="button" className="btn btn-link" >
          <FaInstagram />
           </a>
           <a href='http://www.facebook.com/giacomodimichinoart'role="button" className="btn btn-link" >
         <FaFacebook />
         </a>
-        <a href="giacomo.dimichino@gmail.com" role="button" className="btn btn-link" >
+        <a href='mailto:giacomo.dimichino@gmail.com' role="button" className="btn btn-link" >
         <AiTwotoneMail />
         </a>
      </div>
