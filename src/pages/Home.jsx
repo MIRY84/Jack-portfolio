@@ -20,7 +20,7 @@ import { EffectCube, Pagination } from "swiper";
 
 
 import jack from "../images/jackyprofile.jpg";
-import img1 from "../images/favorites/Spirali.jpg"
+
 import item1 from "../images/favorites/Medusa.jpg";
 import item2 from "../images/favorites/Orca.jpg";
 import item3 from "../images/favorites/Octopus.jpg";
@@ -92,6 +92,18 @@ const Home = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img width={400} height={300} src={item6} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img width={400} height={300} src={item7} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img width={400} height={300} src={item8} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img width={400} height={300} src={item9} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img width={400} height={300} src={item10} />
         </SwiperSlide>
       </Swiper>
             ...
