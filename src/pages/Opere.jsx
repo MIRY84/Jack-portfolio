@@ -6,9 +6,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 // import required modules
-import { EffectCoverflow, Pagination } from "swiper";
+import {Navigation, EffectCoverflow, Pagination } from "swiper";
 import item31 from "../images/favorites/tartaruga.jpg";
 import item1 from "../images/favorites/Medusa.jpg";
 import item2 from "../images/favorites/Orca.jpg";
@@ -67,11 +68,12 @@ function Carouselcomp() {
               modifier: 1,
               slideShadows: true,
             }}
+            navigation={true}
             pagination={true}
-            modules={[EffectCoverflow, Pagination]}
+            modules={[EffectCoverflow, Pagination, Navigation]}
             className="mySwiper"
           >
-            <SwiperSlide >
+            <SwiperSlide>
               <img className="opere" src={item31} />
               <div className="slide-title text-center">RETI FANTASMA</div>
               <div>
