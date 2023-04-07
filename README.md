@@ -12,8 +12,8 @@ I implemented 3d swiper CUBE in Home and in the pictures/art portfolio showcase 
 * Javascript
 * CSS
 ## SCREENSHOTS
-![screenshot](../Jack-portfolio/src/images/favorites/screenshot1.png)
-![screenshot](../Jack-portfolio/src/images/favorites/screenshotp.png)
+![screenshot](/src/images/favorites/screenshot1.png)
+![screenshot](/src/images/favorites/screenshotp.png)
 
 
 
