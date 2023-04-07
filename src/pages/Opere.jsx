@@ -115,16 +115,7 @@ function Carouselcomp() {
                       Sono talmente bravi nel mimetizzarsi che anche la consistenza della loro pelle può variare a scopi mimetici, possono imitare pesci velenosi e serpenti marini.</p></div>
 
                 </SwiperSlide>
-                <SwiperSlide>
-                  <img className="opere" src={item6} />
-                  <div className="slide-title text-center">OCTOPUS</div>
-                  <div>
-                    <p>Tecnica: Linoleografia<br />
-                      Il polpo Cerca la propria sicurezza cambiando colore, si mimetizza, cambia forma, si nasconde, scurisce l’acqua intorno a se e scappa veloce come una freccia.<br />
-                      Sono incredibilmente scaltri nel camuffamento. A differenza di altri animali marini dotati di abilità mimetica, i polpi non provano ad assumere i colori dell’intero habitat che li circonda (sabbia, alghe, coralli) ma scelgono un oggetto preciso (per esempio una conchiglia) e si mettono in posa per assomigliargli.<br />
-                      Sono talmente bravi nel mimetizzarsi che anche la consistenza della loro pelle può variare a scopi mimetici, possono imitare pesci velenosi e serpenti marini.</p></div>
-
-                </SwiperSlide>
+                
                 <SwiperSlide>
                   <img className="opere" src={item7} />
                   <div className="slide-title text-center">I TRE ARCHI</div>
@@ -164,7 +155,7 @@ function Carouselcomp() {
                 </SwiperSlide>
                 <SwiperSlide>
                   <img className="opere" src={item15} />
-                  <div className="slide-title text-center">HIPPOCAMPUS</div>
+                  <div className="slide-title text-center">HIPPOCAMPUS/TECNICA PUNTA SECCA</div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <img className="opere" src={item16} />
@@ -174,10 +165,7 @@ function Carouselcomp() {
                   <img className="opere" src={item17} />
                   <div className="slide-title text-center">MARE IN TEMPESTA</div>
                 </SwiperSlide>
-                <SwiperSlide>
-                  <img className="opere" src={item18} />
-                  <div className="slide-title text-center">MARE IN TEMPESTA</div>
-                </SwiperSlide>
+                
                 <SwiperSlide>
                   <img className="opere" src={item19} />
                   <div className="slide-title text-center">ARA MACAO</div>
@@ -200,16 +188,7 @@ function Carouselcomp() {
 
                   </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                  <img className="opere" src={item23} />
-                  <div className="slide-title text-center">PEACOCK</div>
-                  <div>
-                    <p>Tecnica: Carborundum, resina e puntasecca su acetato<br />
-                      Anno: 2022<br />
-                      Secondo la mitologia greca Argo Panoptes era un gigante con cento occhi, il cui nome Panoptes significava “quello che vede tutto”; per questo fu posto da Era come guardiano della ninfa IO affinché Zeus non si avvicinasse a ella.<br /> Zeus, per liberare Io, mandò il Dio Ermes che camuffatosi da pastore, si avvicinò ad Argo suonando una melodia fino a che non riuscì a far chiudere tutti i cento occhi. <br />Ermes uccise il gigante addormentato tagliandogli la testa con la spada, liberando Io. <br />Era prese gli occhi dalla testa di Argo e li pose sulle piume del pavone, l'animale a lei sacro.</p>
-
-                  </div>
-                </SwiperSlide>
+                
                 <SwiperSlide>
                   <img className="opere" src={item24} />
                   <div className="slide-title text-center">THE EYE OF GOD</div>
@@ -246,9 +225,7 @@ function Carouselcomp() {
                       PICCOLI FRAMMENTI RIFLETTONO IL CONFLITTO INTERIORE DELL'ANIMA."</p>
                   </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                  <img className="opere" src={item28} />
-                </SwiperSlide>
+                
                 <SwiperSlide>
                   <img className="opere" src={item29} />
                 </SwiperSlide>
