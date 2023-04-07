@@ -43,7 +43,7 @@ const Home = () => {
           <Col sm={6}>
             <Swiper
               effect={"cube"}
-              grabCursor={true}
+             
               cubeEffect={{
                 shadow: true,
                 slideShadows: true,
@@ -52,7 +52,7 @@ const Home = () => {
               }}
               autoplay={{
                 delay:2000,
-                disableOnInterection:false,
+               
               }}
               pagination={true}
               modules={[Autoplay, EffectCube, Pagination]}

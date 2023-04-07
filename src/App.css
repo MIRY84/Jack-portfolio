@@ -16,8 +16,7 @@
     align-content: center;
     width: 100%;
     padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+   
     margin-bottom: 10px;
   }
 
@@ -37,18 +36,7 @@
   height: 300px
 }
 
-.carousel {
-  display: flex;
-  text-align: center;
-  align-content: center;
-  align-items: center;
-  padding: 20px;
-  margin: 20px;
-}
 
-.carousel>.carousel-indicators {
-  z-index: 0;
-}
 
 .container>.navbar-nav {
   display: flex;
@@ -57,13 +45,6 @@
   margin: auto
 }
 
-.card {
-  padding: 1em;
-}
-
-.read-the-docs {
-  color: #888;
-}
 
 
 @media (max-width: 750px) {
@@ -78,9 +59,7 @@
 
   .swiper-coverflow {
     display: flex;
-    padding-right: 2px;
-    margin-right: 5px;
-    padding-right: 1px;
+   
     width: 100%;
     overflow-x: hidden;
   }
@@ -109,10 +88,7 @@
 @media (min-width: 750px) {
 
   .swiper-coverflow img {
-    padding-right: 0;
-    margin-right: 1px;
-    margin-left: 3px;
-    padding-left: 2px;
+    
     width: 700px;
     overflow-x: hidden;
   }
@@ -124,9 +100,7 @@
   .swiper-coverflow {
     display: flex;
     align-items: center;
-    padding-right: 2px;
-    margin-right: 5px;
-    padding-right: 1px;
+    
     width: 800px;
     overflow-x: hidden;
   }
@@ -157,13 +131,14 @@
     display: none;
   }
 }
-.swiper> .swiper-button-prev, .swiper-button-next{
+.swiper> .swiper-button-prev {
   display: flex;
   position: absolute;
   display: flex;
-  top: var(--swiper-navigation-top-offset,45%);
+  top: var(--swiper-navigation-top-offset,35%);
   color:pink;
-  width: calc(var(--swiper-navigation-size)/ 8*1)
+  left: var(--swiper-navigation-sides-offset,-3px);
+ 
   
   
   
@@ -171,15 +146,19 @@
  
 }
 .swiper> .swiper-button-next{
+  right: var(--swiper-navigation-sides-offset,-6px);
   display: flex;
   position: absolute;
   display: flex;
-  top: var(--swiper-navigation-top-offset,45%);
+  top: var(--swiper-navigation-top-offset,35%);
   color:pink;
-  width: calc(var(--swiper-navigation-size)/ 8*1);
+  
   
   
   
  
 }
-
+:root {   
+  --swiper-navigation-size: 30px !important;
+  
+}
