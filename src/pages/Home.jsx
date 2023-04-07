@@ -14,16 +14,17 @@ import { Autoplay, EffectCube, Pagination } from "swiper";
 import jack from "../images/jackyprofile.jpg";
 
 import item1 from "../images/favorites/Medusa.jpg";
-import item2 from "../images/favorites/Orca.jpg";
+import item31 from "../images/favorites/tartaruga.jpg";
+
 import item3 from "../images/favorites/Octopus.jpg";
 import item4 from "../images/favorites/Octopustampsec.jpg";
-import item5 from "../images/favorites/Octopus-final.jpg";
+import item27 from "../images/favorites/iltutto.jpg";
 import item6 from "../images/favorites/itrearchi.jpg";
 import item7 from "../images/favorites/Spirali.jpg";
 import item8 from "../images/favorites/Panda.jpg";
 import item9 from "../images/favorites/mantaraya.jpg";
 import item10 from "../images/favorites/Civetta.jpg";
-import item11 from "../images/favorites/iltutto.jpg";
+
 import { Container, Row, Col } from "react-bootstrap";
 
 const Home = () => {
@@ -62,7 +63,7 @@ const Home = () => {
                 <img width={400} height={300} src={item1} />
               </SwiperSlide>
               <SwiperSlide>
-                <img width={400} height={300} src={item2} />
+                <img width={400} height={300} src={item31} />
               </SwiperSlide>
               <SwiperSlide>
                 <img width={400} height={300} src={item3} />
@@ -71,7 +72,7 @@ const Home = () => {
                 <img width={400} height={300} src={item4} />
               </SwiperSlide>
               <SwiperSlide>
-                <img width={400} height={300} src={item5} />
+                <img width={400} height={300} src={item27} />
               </SwiperSlide>
               <SwiperSlide>
                 <img width={400} height={300} src={item6} />
