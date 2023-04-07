@@ -69,11 +69,11 @@ function Carouselcomp() {
               slideShadows: true,
             }}
             autoplay={{
-              delay:2300
+              delay:2500
             }}
-            navigation={true}
+            
             pagination={true}
-            modules={[Autoplay,EffectCoverflow, Pagination, Navigation]}//added arrows
+            modules={[Autoplay,EffectCoverflow, Pagination, ]}//added arrows
             className="mySwiper"
           >
             <SwiperSlide>
