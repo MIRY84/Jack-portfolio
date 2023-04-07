@@ -20,7 +20,7 @@ I implemented 3d swiper CUBE in Home and in the pictures/art portfolio showcase 
 ### COLLABORATORS
 
 1. [Mirella](https://github.com/MIRY84)
-2. [Guilherme](https://github.com/guilherme)
+2. [Guilherme](https://github.com/GuilhermeDeretti)
 
 
 
