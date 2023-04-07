@@ -9,7 +9,7 @@ import "swiper/css";
 
 // import required modules
 
-import { EffectCube, Pagination } from "swiper";
+import { Autoplay, EffectCube, Pagination } from "swiper";
 
 import jack from "../images/jackyprofile.jpg";
 
@@ -50,8 +50,12 @@ const Home = () => {
                 shadowOffset: 20,
                 shadowScale: 0.94,
               }}
+              autoplay={{
+                delay:2000,
+                disableOnInterection:false,
+              }}
               pagination={true}
-              modules={[EffectCube, Pagination]}
+              modules={[Autoplay, EffectCube, Pagination]}
               className="mySwiper"
             >
               <SwiperSlide>
