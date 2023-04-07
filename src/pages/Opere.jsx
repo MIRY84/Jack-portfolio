@@ -9,14 +9,14 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import required modules
-import {Navigation, EffectCoverflow, Pagination } from "swiper";
+import {Autoplay, Navigation, EffectCoverflow, Pagination } from "swiper";
 import item31 from "../images/favorites/tartaruga.jpg";
 import item1 from "../images/favorites/Medusa.jpg";
-import item2 from "../images/favorites/Orca.jpg";
+
 import item3 from "../images/favorites/orca2.jpg";
 import item4 from "../images/favorites/Octopus.jpg";
 import item5 from "../images/favorites/Octopustampsec.jpg";
-import item6 from "../images/favorites/Octopus-final.jpg";
+
 import item7 from "../images/favorites/itrearchi.jpg";
 import item8 from "../images/favorites/Spirali.jpg";
 import item9 from "../images/favorites/Panda.jpg";
@@ -28,17 +28,17 @@ import item14 from "../images/favorites/cantosmeraldino.jpg";
 import item15 from "../images/favorites/Hippocampus.jpg";
 import item16 from "../images/favorites/Ex libris Jordan Petkov (corallo).jpg";
 import item17 from "../images/favorites/Maretempesta.jpg";
-import item18 from "../images/favorites/mareintempesta.jpg";
+
 import item19 from "../images/favorites/Ara Macao.jpg";
 import item20 from "../images/favorites/libroartista.jpg";
 import item21 from "../images/favorites/Attrazione sferica.jpg";
 import item22 from "../images/favorites/peacock1.jpg";
-import item23 from "../images/favorites/Peacock.jpg";
+
 import item24 from "../images/favorites/The eye of God.jpg";
 import item25 from "../images/favorites/argopanoptes.jpg";
 import item26 from "../images/favorites/axolotl.jpg";
 import item27 from "../images/favorites/iltutto.jpg";
-import item28 from "../images/favorites/iltutto2.jpg";
+
 import item29 from "../images/favorites/Capitale europea della cultura 2019.jpg";
 import item30 from "../images/favorites/Dai gradoni di Sant'Antonio.jpg";
 import { Container, Row, Col } from 'react-bootstrap';
@@ -68,9 +68,12 @@ function Carouselcomp() {
               modifier: 1,
               slideShadows: true,
             }}
+            autoplay={{
+              delay:2300
+            }}
             navigation={true}
             pagination={true}
-            modules={[EffectCoverflow, Pagination, Navigation]}//added arrows
+            modules={[Autoplay,EffectCoverflow, Pagination, Navigation]}//added arrows
             className="mySwiper"
           >
             <SwiperSlide>
