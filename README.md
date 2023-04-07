@@ -2,7 +2,7 @@
 
 ## DESCRIPTION
 In this project I have been asked to create a portfolio with art pictures showcasing the print art work of an amazing artist. Everything has been built from scratch .
-I implemented 3d swiper in home and in the pictures/art portfolio showcase.
+I implemented 3d swiper CUBE in Home and in the pictures/art portfolio showcase IN COVERFLOW EFFECT/AUTOPLAY FEATURES.
 
 
 ## TECHNOLOGY USED
@@ -11,6 +11,18 @@ I implemented 3d swiper in home and in the pictures/art portfolio showcase.
 * react-icons npm
 * Javascript
 * CSS
+## SCREENSHOTS
+![screenshot](../Jack-portfolio/src/images/favorites/screenshot1.png)
+![screenshot](../Jack-portfolio/src/images/favorites/screenshotp.png)
+
+
+
+### COLLABORATORS
+
+1. [Mirella](https://github.com/MIRY84)
+2. [Guilherme](https://github.com/guilherme)
+
+
 
 ## CREDITS
 
