@@ -28,6 +28,7 @@ import item10 from "../images/favorites/Civetta.jpg";
 import { Container, Row, Col } from "react-bootstrap";
 
 const Home = () => {
+  const items = [item1,item2,item3,item4,item5,item6,item7,item8,item9,item10];
   return (
     <div>
       <Container>
@@ -39,7 +40,7 @@ const Home = () => {
         </Row>
         <Row>
           <Col sm={6}>
-            <img className="jacky" width={400} src={jack} />
+            <img loading="lazy" className="jacky" width={400} src={jack} />
           </Col>
           <Col sm={6}>
             <Swiper
@@ -59,36 +60,12 @@ const Home = () => {
               modules={[Autoplay, EffectCube, Pagination]}
               className="mySwiper"
             >
-              <SwiperSlide>
-                <img width={400} height={300} src={item1} />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img width={400} height={300} src={item31} />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img width={400} height={300} src={item3} />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img width={400} height={300} src={item4} />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img width={400} height={300} src={item27} />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img width={400} height={300} src={item6} />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img width={400} height={300} src={item7} />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img width={400} height={300} src={item8} />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img width={400} height={300} src={item9} />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img width={400} height={300} src={item10} />
-              </SwiperSlide>
+             {/* loop into the items list to find the image and make the slide */}
+             {items.map((item) => (
+                <SwiperSlide>
+                  <img loading="lazy" width={400} height={300} src={item} />
+                </SwiperSlide>
+              ))}  
             </Swiper>
             ...
 
