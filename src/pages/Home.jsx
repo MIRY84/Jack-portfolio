@@ -9,21 +9,22 @@ import "swiper/css";
 
 // import required modules
 
-import { EffectCube, Pagination } from "swiper";
+import { Autoplay, EffectCube, Pagination } from "swiper";
 
 import jack from "../images/jackyprofile.jpg";
 
 import item1 from "../images/favorites/Medusa.jpg";
-import item2 from "../images/favorites/Orca.jpg";
+import item31 from "../images/favorites/tartaruga.jpg";
+
 import item3 from "../images/favorites/Octopus.jpg";
 import item4 from "../images/favorites/Octopustampsec.jpg";
-import item5 from "../images/favorites/Octopus-final.jpg";
+import item27 from "../images/favorites/iltutto.jpg";
 import item6 from "../images/favorites/itrearchi.jpg";
 import item7 from "../images/favorites/Spirali.jpg";
 import item8 from "../images/favorites/Panda.jpg";
 import item9 from "../images/favorites/mantaraya.jpg";
 import item10 from "../images/favorites/Civetta.jpg";
-import item11 from "../images/favorites/iltutto.jpg";
+
 import { Container, Row, Col } from "react-bootstrap";
 
 const Home = () => {
@@ -44,15 +45,19 @@ const Home = () => {
           <Col sm={6}>
             <Swiper
               effect={"cube"}
-              grabCursor={true}
+             
               cubeEffect={{
                 shadow: true,
                 slideShadows: true,
                 shadowOffset: 20,
                 shadowScale: 0.94,
               }}
+              autoplay={{
+                delay:2000,
+               
+              }}
               pagination={true}
-              modules={[EffectCube, Pagination]}
+              modules={[Autoplay, EffectCube, Pagination]}
               className="mySwiper"
             >
              {/* loop into the items list to find the image and make the slide */}
@@ -68,8 +73,8 @@ const Home = () => {
         </Row>
         <Row>
           <Col sm={12}>
-          <h2 className="text-center">Giacomo Dimichino Print Artist</h2><br />
-              <p>Nato a Bari (BA) il 03/05/1991, consegue il diploma di maturità artistica “prima
+          <h2 style={{fontSize:"3 rem"}} className="text-center">Giacomo Dimichino Print Artist</h2><br />
+              <div style={{fontSize:"3 rem"}}>Nato a Bari (BA) il 03/05/1991, consegue il diploma di maturità artistica “prima
               sezione Accademia” presso il Liceo Artistico Statale “C. Levi” di Matera (MT) nel
               2009, dove frequenta il corso di “Fumetto e Disegno Caricaturale” con Claudio
               Vino. <br />
@@ -100,7 +105,7 @@ const Home = () => {
               per l incisione” ad Acqui Terme, Alessandria (AL).<br />
               Nell' Ottobre 2022 in occasione della 18ma giornata mondiale del contemporaneo
               espone 6 incisioni presso la “galleria Domus.Mad Art” e altre 2 incisioni presso il
-              “Distretto del mobile imbottito” a Matera.</p>
+              “Distretto del mobile imbottito” a Matera.</div>
           </Col>
         </Row>
       </Container>

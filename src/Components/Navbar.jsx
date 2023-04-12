@@ -19,16 +19,18 @@ function ColorSchemesExample() {
               isActive ? 'nav-link active' : 'nav-link'
               }
             >
-              Home
+             <p style = {{ fontSize: "1.5em" }}>Home </p>
             </NavLink>
             <NavLink
             to="/opere" className={({ isActive}) =>
               isActive ? 'nav-link active' : 'nav-link'
               }
             >
-              Opere
+             <p style = {{ fontSize: "1.5em" }}> Opere </p>
             </NavLink>     
-            <a className='nav-link' onClick={() => window.location.replace("#about")}>Contato</a> 
+            <button className='nav-link btn btn-link'  onClick={() => window.location.replace("#about")}>
+            <p style = {{ fontSize: "1.5em" }}>Contact </p>
+            </button> 
           </Nav>
         </Container>
       </Navbar>
