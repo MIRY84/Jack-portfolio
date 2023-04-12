@@ -28,7 +28,7 @@ import item10 from "../images/favorites/Civetta.jpg";
 import { Container, Row, Col } from "react-bootstrap";
 
 const Home = () => {
-  const items = [item1,item2,item3,item4,item5,item6,item7,item8,item9,item10];
+  const items = [item1,item31,item3,item4,item6,item7,item8,item9,item10, item27];
   return (
     <div>
       <Container>
