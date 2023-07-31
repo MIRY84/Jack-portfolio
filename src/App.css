@@ -20,6 +20,16 @@
     margin-bottom: 10px;
   }
 
+  .card{
+    color:  rgb(243, 228, 228)!important;
+    --bs-card-border-color: none !important;
+  }
+
+  .card-body{
+    background-color: rgb(243, 228, 228)!important;
+   
+  }
+
   .swiper-slide .opere {
     height: 300px;
   }
@@ -124,6 +134,16 @@
 
   .swiper-cube-shadow {
     display: none;
+  }
+
+  .card-body{
+    background-color: rgb(243, 228, 228)!important;
+    border: none !important;
+   
+  }
+  .card{
+    color:  rgb(243, 228, 228)!important;
+    --bs-card-border-color: none !important;
   }
 
   .swiper-slide-shadow-right,
