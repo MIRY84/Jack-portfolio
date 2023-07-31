@@ -44,7 +44,7 @@ import item30 from "../images/favorites/Dai gradoni di Sant'Antonio.jpg";
 import { Container, Row, Col, Card } from 'react-bootstrap';
 
 function Carouselcomp() {
- 
+
 
   return (
 
@@ -57,213 +57,257 @@ function Carouselcomp() {
 
 
 
-      <Row xs={1} md={3} className="g-4">
-        <Col>
-          <Card >
-            <Card.Img variant="top" className="opere" src={item31} />
-            <Card.Body>
-              <Card.Title className="slide-title text-center">RETI FANTASMA</Card.Title>
-            </Card.Body>
+        <Row xs={1} md={3} className="g-4">
+          <Col>
+            <Card >
+              <Card.Img variant="top" className="opere" src={item31} />
+              <Card.Body>
+                <Card.Title className="slide-title text-center">RETI FANTASMA</Card.Title>
+              </Card.Body>
 
-          </Card>
-        </Col>
+            </Card>
+          </Col>
 
-        <Col>
-          <Card >
-            <Card.Img variant="top" className="opere" src={item7} />
-            <Card.Body>
-              <Card.Title className="slide-title text-center">I TRE ARCHI</Card.Title>
-            </Card.Body>
+          <Col>
+            <Card >
+              <Card.Img variant="top" className="opere" src={item7} />
+              <Card.Body>
+                <Card.Title className="slide-title text-center">I TRE ARCHI</Card.Title>
+              </Card.Body>
 
-          </Card>
-        </Col>
+            </Card>
+          </Col>
 
-        <Col>
-          <Card>
-            <Card.Img variant="top" className="opere" src={item3} />
-            <Card.Body>
-              <Card.Title className="slide-title text-center">ORCA</Card.Title>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
-
-      <Row xs={1} md={3} className="g-4">
-        <Col>
-          <Card>
-            <Card.Img variant="top" className="opere" src={item4} />
-            <Card.Body>
-              <Card.Title className="slide-title text-center">OCTOPUS</Card.Title>
-
-            </Card.Body>
-          </Card>
-        </Col>
-
-        <Col>
-          <Card>
-            <Card.Img variant="top" className="opere" src={item5} />
-            <Card.Body>
-              <Card.Title className="slide-title text-center">OCTOPUS/Stampa A Secco</Card.Title>
-            </Card.Body>
-
-          </Card>
-        </Col>
-        <Col>
-          <Card>
-            <Card.Img variant="top" className="opere" src={item14} />
-            <Card.Body>
-              <Card.Title className="slide-title text-center">IL CANTO DELLO SMERALDINO</Card.Title>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
-
-      <div>
+          <Col>
+            <Card>
+              <Card.Img variant="top" className="opere" src={item3} />
+              <Card.Body>
+                <Card.Title className="slide-title text-center">ORCA</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
 
         <Row xs={1} md={3} className="g-4">
           <Col>
             <Card>
-              <Card.Img variant="top" className="opere" src={item8} />
-              <div className="slide-title text-center">SPIRALI</div>
-            </Card>
-          </Col>
-          <Col>
-            <Card>
-              <Card.Img variant="top" className="opere" src={item12} />
+              <Card.Img variant="top" className="opere" src={item4} />
               <Card.Body>
-                <Card.Title className="slide-title text-center">NAUTILUS</Card.Title>
+                <Card.Title className="slide-title text-center">OCTOPUS</Card.Title>
+
               </Card.Body>
             </Card>
           </Col>
+
           <Col>
             <Card>
-              <Card.Img variant="top" className="opere" src={item10} />
-              <div className="slide-title text-center">MANTA RAYA</div>
+              <Card.Img variant="top" className="opere" src={item5} />
+              <Card.Body>
+                <Card.Title className="slide-title text-center">OCTOPUS/Stampa A Secco</Card.Title>
+              </Card.Body>
+
+            </Card>
+          </Col>
+
+
+          <Col>
+            <Card>
+              <Card.Img variant="top" className="opere" src={item14} />
+              <Card.Body>
+                <Card.Title className="slide-title text-center">IL CANTO DELLO SMERALDINO</Card.Title>
+              </Card.Body>
             </Card>
           </Col>
         </Row>
-      </div>
 
-      <Row xs={1} md={3} className="g-4">
-        <Col>
-          <Card>
-            <Card.Img variant="top" className="opere" src={item11} />
-            <Card.Title className="slide-title text-center">CIVETTA</Card.Title>
-          </Card>
-        </Col>
-        <Col>
-          <Card>
-            <Card.Img variant="top" className="opere" src={item12} />
-            <Card.Title className="slide-title text-center">NAUTILUS</Card.Title>
-          </Card>
-        </Col>
-        <Col>
-          <Card>
-            <Card.Img variant="top" className="opere" src={item16} />
-            <Card.Title className="slide-title text-center">EX LIBRIS JORDAN PETKOV</Card.Title>
-          </Card>
-        </Col>
-      </Row>
+        <div>
 
-      <Row xs={1} md={3} className="g-4">
-        <Col>
-          <Card>
-            <Card.Img variant="top" className="opere" src={item15} />
-            <Card.Title className="slide-title text-center">HIPPOCAMPUS/TECNICA PUNTA SECCA</Card.Title>
-          </Card>
-        </Col>
+          <Row xs={1} md={3} className="g-4">
+            <Col>
+              <Card>
+                <Card.Img variant="top" className="opere" src={item8} />
+                <Card.Body>
+                <Card.Title className="slide-title text-center">SPIRALI</Card.Title>
+                </Card.Body>
+              </Card>
+            </Col>
 
-        <Col>
-          <Card>
-            <Card.Img variant="top" className="opere" src={item16} />
-            <Card.Title className="slide-title text-center">EX LIBRIS JORDAN PETKOV</Card.Title>
-          </Card>
-        </Col>
-
-        <Col>
-          <Card>
-            <Card.Img variant="top" className="opere" src={item17} />
-            <Card.Title className="slide-title text-center">MARE IN TEMPESTA</Card.Title>
-          </Card>
-        </Col>
-      </Row>
-
-      <Row xs={1} md={3} className="g-4"></Row>
-
-      <Card>
-        <Card.Img variant="top" className="opere" src={item19} />
-        <Card.Title className="slide-title text-center">ARA MACAO</Card.Title>
-      </Card>
-      <Card>
-        <Card.Img variant="top" className="opere" src={item20} />
-        <Card.Title className="slide-title text-center">LIBRO D'ARTISTA</Card.Title>
-      </Card>
-      <Card>
-        <Card.Img variant="top" className="opere" src={item21} />
-        <div className="slide-title text-center">ATTRAZIONE SFERICA</div>
-      </Card>
-
-      <Col>
-        <Card>
-          <Card.Img variant="top" className="opere" src={item22} />
-          <Card.Body>
-            <Card.Title className="slide-title text-center">PEACOCK</Card.Title>
-          </Card.Body>
-
-        </Card>
-      </Col>
-
-      <Col>
-        <Card>
-          <Card.Img variant="top" className="opere" src={item24} />
-          <Card.Body>
-            <Card.Title className="slide-title text-center">THE EYE OF GOD</Card.Title>
-          </Card.Body>
-        </Card>
-      </Col>
-
-      <Col>
-        <Card>
-          <Card.Img variant="top" className="opere" src={item25} />
-          <Card.Body>
-            <Card.Title className="slide-title text-center">ARGO PANOPTES</Card.Title>
-          </Card.Body>
-        </Card>
-      </Col>
+            <Col>
+              <Card>
+                <Card.Img variant="top" className="opere" src={item12} />
+                <Card.Body>
+                  <Card.Title className="slide-title text-center">NAUTILUS</Card.Title>
+                </Card.Body>
+              </Card>
+            </Col>
 
 
-      <Card>
-        <Card.Img variant="top" className="opere" src={item26} />
-        <Card.Body>
-          <Card.Title className="slide-title text-center">AXOLOTL</Card.Title>
-        </Card.Body>
-      </Card>
-      <Card>
-        <Card.Img variant="top" className="opere" src={item27} />
-        <Card.Body>
-          <Card.Title className="slide-title text-center">COME TUTTO EBBE INIZIO/NASCITA</Card.Title>
-        </Card.Body>
+            <Col>
+              <Card>
+                <Card.Img variant="top" className="opere" src={item10} />
+                <Card.Body>
+                <Card.Title className="slide-title text-center">MANTA RAYA</Card.Title>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+        </div>
 
-      </Card>
+        <Row xs={1} md={3} className="g-4">
+          <Col>
+            <Card>
+              <Card.Img variant="top" className="opere" src={item11} />
+              <Card.Body>
+              <Card.Title className="slide-title text-center">CIVETTA</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
 
-      <Card>
-        <Card.Img variant="top" className="opere" src={item29} />
-        <Card.Body>
-          <Card.Title className="slide-title text-center">Capitale europea della cultura 2019</Card.Title>
-        </Card.Body>
-      </Card>
-      <Card>
-        <Card.Img variant="top" className="opere" src={item30} />
-        <Card.Body>
-          <Card.Title className="slide-title text-center"> Dai gradoni di Sant'Antonio</Card.Title>
-        </Card.Body>
-      </Card>
+          <Col>
+            <Card>
+              <Card.Img variant="top" className="opere" src={item26} />
+              <Card.Body>
+                <Card.Title className="slide-title text-center">AXOLOTL</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
 
 
-    </Container>
+          <Col>
+            <Card>
+              <Card.Img variant="top" className="opere" src={item16} />
+              <Card.Body>
+              <Card.Title className="slide-title text-center">EX LIBRIS JORDAN PETKOV</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+
+        <Row xs={1} md={3} lg={3} className="g-4">
+          <Col>
+            <Card>
+              <Card.Img variant="top" className="opere" src={item15} />
+              <Card.Body>
+              <Card.Title className="slide-title text-center">HIPPOCAMPUS/TECNICA PUNTA SECCA</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card>
+              <Card.Img variant="top" className="opere" src={item1} />
+              <Card.Body>
+              <Card.Title className="slide-title text-center">MEDUSA</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card>
+              <Card.Img variant="top" className="opere" src={item17} />
+              <Card.Title className="slide-title text-center">MARE IN TEMPESTA</Card.Title>
+            </Card>
+          </Col>
+        </Row>
+
+        <Row xs={1} md={3} className="g-4">
+          <Col>
+            <Card>
+             
+              <Card.Img variant="top" className="opere" src={item19} />
+              <Card.Body>
+              <Card.Title className="slide-title text-center">ARA MACAO</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card >
+              <Card.Img variant="top" className="opere" src={item20} />
+              <Card.Body>
+              <Card.Title className="slide-title text-center">LIBRO D'ARTISTA</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card>
+              <Card.Img variant="top" className="opere" src={item21} />
+              <Card.Body>
+              <Card.Title className="slide-title text-center">ATTRAZIONE SFERICA</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+
+        <Row xs={1} md={3} className="g-4">
+
+          <Col>
+            <Card>
+              <Card.Img variant="top" className="opere" src={item22} />
+              <Card.Body>
+                <Card.Title className="slide-title text-center">PEACOCK</Card.Title>
+              </Card.Body>
+
+            </Card>
+          </Col>
+
+          <Col>
+            <Card>
+              <Card.Img variant="top" className="opere" src={item24} />
+              <Card.Body>
+                <Card.Title className="slide-title text-center">THE EYE OF GOD</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card>
+              <Card.Img variant="top" className="opere" src={item25} />
+              <Card.Body>
+                <Card.Title className="slide-title text-center">ARGO PANOPTES</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+
+
+        <Row xs={1} md={3} className="g-4">
+          <Col>
+            <Card>
+              <Card.Img variant="top" className="opere" src={item27} />
+              <Card.Body>
+                <Card.Title className="slide-title text-center">COME TUTTO EBBE INIZIO/NASCITA</Card.Title>
+              </Card.Body>
+
+            </Card>
+          </Col>
+
+          <Col>
+            <Card>
+              <Card.Img variant="top" className="opere" src={item29} />
+              <Card.Body>
+                <Card.Title className="slide-title text-center">CAPITALE EUROPEA DELLA CULTURA 2019</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card>
+              <Card.Img variant="top" className="opere" src={item30} />
+              <Card.Body>
+                <Card.Title className="slide-title text-center"> DAI GRADONI DI SANT'ANTONIO</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+
+
+      </Container>
     </>
-  );
+  )
 }
+
 
 
 export default Carouselcomp;
