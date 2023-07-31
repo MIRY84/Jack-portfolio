@@ -127,7 +127,7 @@ function Carouselcomp() {
               <Card>
                 <Card.Img variant="top" className="opere" src={item8} />
                 <Card.Body>
-                <Card.Title className="slide-title text-center">SPIRALI</Card.Title>
+                  <Card.Title className="slide-title text-center">SPIRALI</Card.Title>
                 </Card.Body>
               </Card>
             </Col>
@@ -146,7 +146,7 @@ function Carouselcomp() {
               <Card>
                 <Card.Img variant="top" className="opere" src={item10} />
                 <Card.Body>
-                <Card.Title className="slide-title text-center">MANTA RAYA</Card.Title>
+                  <Card.Title className="slide-title text-center">MANTA RAYA</Card.Title>
                 </Card.Body>
               </Card>
             </Col>
@@ -158,7 +158,7 @@ function Carouselcomp() {
             <Card>
               <Card.Img variant="top" className="opere" src={item11} />
               <Card.Body>
-              <Card.Title className="slide-title text-center">CIVETTA</Card.Title>
+                <Card.Title className="slide-title text-center">CIVETTA</Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -177,7 +177,7 @@ function Carouselcomp() {
             <Card>
               <Card.Img variant="top" className="opere" src={item16} />
               <Card.Body>
-              <Card.Title className="slide-title text-center">EX LIBRIS JORDAN PETKOV</Card.Title>
+                <Card.Title className="slide-title text-center">EX LIBRIS JORDAN PETKOV</Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -188,7 +188,7 @@ function Carouselcomp() {
             <Card>
               <Card.Img variant="top" className="opere" src={item15} />
               <Card.Body>
-              <Card.Title className="slide-title text-center">HIPPOCAMPUS/TECNICA PUNTA SECCA</Card.Title>
+                <Card.Title className="slide-title text-center">HIPPOCAMPUS/TECNICA PUNTA SECCA</Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -197,7 +197,7 @@ function Carouselcomp() {
             <Card>
               <Card.Img variant="top" className="opere" src={item1} />
               <Card.Body>
-              <Card.Title className="slide-title text-center">MEDUSA</Card.Title>
+                <Card.Title className="slide-title text-center">MEDUSA</Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -205,7 +205,9 @@ function Carouselcomp() {
           <Col>
             <Card>
               <Card.Img variant="top" className="opere" src={item17} />
-              <Card.Title className="slide-title text-center">MARE IN TEMPESTA</Card.Title>
+              <Card.Body>
+                <Card.Title className="slide-title text-center">MARE IN TEMPESTA</Card.Title>
+              </Card.Body>
             </Card>
           </Col>
         </Row>
@@ -213,10 +215,10 @@ function Carouselcomp() {
         <Row xs={1} md={3} className="g-4">
           <Col>
             <Card>
-             
+
               <Card.Img variant="top" className="opere" src={item19} />
               <Card.Body>
-              <Card.Title className="slide-title text-center">ARA MACAO</Card.Title>
+                <Card.Title className="slide-title text-center">ARA MACAO</Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -225,7 +227,7 @@ function Carouselcomp() {
             <Card >
               <Card.Img variant="top" className="opere" src={item20} />
               <Card.Body>
-              <Card.Title className="slide-title text-center">LIBRO D'ARTISTA</Card.Title>
+                <Card.Title className="slide-title text-center">LIBRO D'ARTISTA</Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -234,7 +236,7 @@ function Carouselcomp() {
             <Card>
               <Card.Img variant="top" className="opere" src={item21} />
               <Card.Body>
-              <Card.Title className="slide-title text-center">ATTRAZIONE SFERICA</Card.Title>
+                <Card.Title className="slide-title text-center">ATTRAZIONE SFERICA</Card.Title>
               </Card.Body>
             </Card>
           </Col>
