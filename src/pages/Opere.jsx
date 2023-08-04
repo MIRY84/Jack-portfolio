@@ -159,7 +159,28 @@ function Carouselcomp() {
 
           <Col>
             <Card>
+            <div
+                className="image-container"
+                onMouseOver={showOverlay}
+                onMouseLeave={hideOverlay}
+              >
               <Card.Img variant="top" className="opere" src={item14} />
+              {show && (
+              <div className="overlay">
+              <h3>Tecnica: maniera zucchero/acquatinta/rotella<br />
+                      Dimensioni: 180x300mm/Anno 2020</h3>
+                      <p><em>IL ROSPO è forse l’animale più nostalgico e fedele perché in età adulta, torna alla pozza dove ha vissuto la giovinezza di girino per cercare la propria compagna.<br />
+                      Sono animali che subiscono una metamorfosi, nascono come animaletti, 
+                      simili a pesci per caratteristiche fisiche e morfologiche, 
+                      per poi trasformarsi in creature dotate di zampe e polmoni.<br />
+                      Gli anfibi sono infatti animali dalla “doppia vita”, 
+                      perché sospesi fra gli ambienti acquatici e quelli terrestri.<br />
+                      È però nell’acqua dello stagno che nasce il potente canto d’amore degli smeraldini, 
+                      quando la primavera ancora dorme risuona nel crepuscolo serale, 
+                      creando uno spettacolo musicale, inno alla vita dopo mesi di letargo invernale.</em></p>
+                      </div>
+              )}
+              </div>
               <Card.Body>
                 <Card.Title className="slide-title text-center">IL CANTO DELLO SMERALDINO</Card.Title>
               </Card.Body>

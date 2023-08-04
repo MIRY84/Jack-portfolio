@@ -195,7 +195,7 @@
 }
 
 .overlay {
-  padding: 20px;
+  padding: 10px;
   position: absolute;
   top: 0;
   left: 0;
@@ -206,23 +206,29 @@
   opacity: 0;
   transition: opacity 0.3s ease;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction:column-reverse;
+  justify-content:center;
   align-items: left;
+ 
 }
 
 .overlay:hover {
   opacity: 1;
+  
 }
 
 .overlay h3 {
   font-size: 18px;
   margin-bottom: 10px;
+  
+  
 }
 
 .overlay p {
-  font-size: 16px;
+  font-size: 15px;
   overflow: auto;
+  
+ 
   
   
 }
