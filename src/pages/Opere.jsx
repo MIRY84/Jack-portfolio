@@ -44,6 +44,15 @@ import item30 from "../images/favorites/Dai gradoni di Sant'Antonio.jpg";
 import { Container, Row, Col, Card } from 'react-bootstrap';
 
 function Carouselcomp() {
+  const [show, setShow] = useState(false);
+
+  const showOverlay = () => {
+    setShow(true);
+  };
+
+  const hideOverlay = () => {
+    setShow(false);
+  };
 
 
   return (
@@ -60,7 +69,27 @@ function Carouselcomp() {
         <Row xs={1} md={3} className="g-4">
           <Col>
             <Card >
-              <Card.Img variant="top" className="opere" src={item31} />
+              <div
+                className="image-container"
+                onMouseOver={showOverlay}
+                onMouseLeave={hideOverlay}
+              >
+                <Card.Img variant="top" className="opere" src={item31} />
+                {show && (
+                  <div className="overlay">
+                    <h3>Tecnica: Xilografia <br />
+                      Dim. lastra: 600x400mm<br />
+                      Dim. foglio: 70x50cm</h3><br />
+
+                    <p><em> Nasce come omaggio alla bellezza delle creature marine 
+                      (alla loro libertà di muoversi nell'immensità dell'oceano), poi diventa una denuncia, 
+                      un grido d'allarme, di una nuova fonte di inquinamento: le "reti fantasma", 
+                      reti da pesca abbandonate nei fondali, trappole vere e proprie che non lasciano via di scampo alla fauna marina
+                       e che si riducono in frammenti sempre più piccoli (con il calore del sole e il movimento delle onde) 
+                       fino a diventare microplastiche dannose anche per l'essere umano.</em></p>
+                  </div>
+                )}
+              </div>
               <Card.Body>
                 <Card.Title className="slide-title text-center">RETI FANTASMA</Card.Title>
               </Card.Body>
@@ -91,7 +120,25 @@ function Carouselcomp() {
         <Row xs={1} md={3} className="g-4">
           <Col>
             <Card>
-              <Card.Img variant="top" className="opere" src={item4} />
+              <div
+                className="image-container"
+                onMouseOver={showOverlay}
+                onMouseLeave={hideOverlay}
+              >
+                <Card.Img variant="top" className="opere" src={item4} />
+                {show && (
+                  
+                  <div className="overlay">
+                  
+                    <h3>Tecnica: Linoleografia</h3><br />
+                    
+                      <p><em>Il polpo Cerca la propria sicurezza cambiando colore,<br></br> si mimetizza, cambia forma, si nasconde, scurisce l’acqua intorno a se e scappa veloce come una freccia.<br />
+                      Sono incredibilmente scaltri nel camuffamento. A differenza di altri animali marini dotati di abilità mimetica, i polpi non provano ad assumere i colori dell’intero habitat che li circonda (sabbia, alghe, coralli) ma scelgono un oggetto preciso (per esempio una conchiglia) e si mettono in posa per assomigliargli.<br />
+                      Sono talmente bravi nel mimetizzarsi che anche la consistenza della loro pelle può variare a scopi mimetici, possono imitare pesci velenosi e serpenti marini.</em></p>
+                  </div>
+                 
+                )}
+              </div>
               <Card.Body>
                 <Card.Title className="slide-title text-center">OCTOPUS</Card.Title>
 
