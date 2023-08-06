@@ -132,9 +132,10 @@ function Carouselcomp() {
                   
                     <h3>Tecnica: Linoleografia</h3><br />
                     
-                      <p><em>Il polpo Cerca la propria sicurezza cambiando colore,<br></br> si mimetizza, cambia forma, si nasconde, scurisce l’acqua intorno a se e scappa veloce come una freccia.<br />
+                      {/* <p><em>Il polpo Cerca la propria sicurezza cambiando colore,<br></br> si mimetizza, cambia forma, si nasconde, scurisce l’acqua intorno a se e scappa veloce come una freccia.<br />
                       Sono incredibilmente scaltri nel camuffamento. A differenza di altri animali marini dotati di abilità mimetica, i polpi non provano ad assumere i colori dell’intero habitat che li circonda (sabbia, alghe, coralli) ma scelgono un oggetto preciso (per esempio una conchiglia) e si mettono in posa per assomigliargli.<br />
                       Sono talmente bravi nel mimetizzarsi che anche la consistenza della loro pelle può variare a scopi mimetici, possono imitare pesci velenosi e serpenti marini.</em></p>
+                */}
                   </div>
                  
                 )}
@@ -169,7 +170,7 @@ function Carouselcomp() {
               <div className="overlay">
               <h3>Tecnica: maniera zucchero/acquatinta/rotella<br />
                       Dimensioni: 180x300mm/Anno 2020</h3>
-                      <p><em>IL ROSPO è forse l’animale più nostalgico e fedele perché in età adulta, torna alla pozza dove ha vissuto la giovinezza di girino per cercare la propria compagna.<br />
+                      {/* <p><em>IL ROSPO è forse l’animale più nostalgico e fedele perché in età adulta, torna alla pozza dove ha vissuto la giovinezza di girino per cercare la propria compagna.<br />
                       Sono animali che subiscono una metamorfosi, nascono come animaletti, 
                       simili a pesci per caratteristiche fisiche e morfologiche, 
                       per poi trasformarsi in creature dotate di zampe e polmoni.<br />
@@ -178,6 +179,7 @@ function Carouselcomp() {
                       È però nell’acqua dello stagno che nasce il potente canto d’amore degli smeraldini, 
                       quando la primavera ancora dorme risuona nel crepuscolo serale, 
                       creando uno spettacolo musicale, inno alla vita dopo mesi di letargo invernale.</em></p>
+              */}
                       </div>
               )}
               </div>
