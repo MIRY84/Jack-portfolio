@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 // Import Swiper React components
 
 
@@ -42,9 +42,13 @@ import item27 from "../images/favorites/iltutto.jpg";
 import item29 from "../images/favorites/Capitale europea della cultura 2019.jpg";
 import item30 from "../images/favorites/Dai gradoni di Sant'Antonio.jpg";
 import { Container, Row, Col, Card } from 'react-bootstrap';
+import Descrizioni from "./Descrizioni";
+import Rospo from "./Rospo";
+
 
 function Carouselcomp() {
   const [show, setShow] = useState(false);
+
 
   const showOverlay = () => {
     setShow(true);
@@ -53,6 +57,53 @@ function Carouselcomp() {
   const hideOverlay = () => {
     setShow(false);
   };
+
+
+  const [isShown, setIsShown] = useState(false);
+  const [isShown2, setIsShown2] = useState(false);
+  const [isShown3, setIsShown3] = useState(false);
+
+
+  const handleClick1 = () => {
+    setIsShown((current) => !current);
+  };
+
+  const handleClick2 = () => {
+    setIsShown2((current) => !current);
+  };
+
+  const handleClick3 = () => {
+    setIsShown3((current) => !current);
+  };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   return (
@@ -81,17 +132,18 @@ function Carouselcomp() {
                       Dim. lastra: 600x400mm<br />
                       Dim. foglio: 70x50cm</h3><br />
 
-                    <p><em> Nasce come omaggio alla bellezza delle creature marine 
-                      (alla loro libertà di muoversi nell'immensità dell'oceano), poi diventa una denuncia, 
-                      un grido d'allarme, di una nuova fonte di inquinamento: le "reti fantasma", 
+                    <p><em> Nasce come omaggio alla bellezza delle creature marine
+                      (alla loro libertà di muoversi nell'immensità dell'oceano), poi diventa una denuncia,
+                      un grido d'allarme, di una nuova fonte di inquinamento: le "reti fantasma",
                       reti da pesca abbandonate nei fondali, trappole vere e proprie che non lasciano via di scampo alla fauna marina
-                       e che si riducono in frammenti sempre più piccoli (con il calore del sole e il movimento delle onde) 
-                       fino a diventare microplastiche dannose anche per l'essere umano.</em></p>
+                      e che si riducono in frammenti sempre più piccoli (con il calore del sole e il movimento delle onde)
+                      fino a diventare microplastiche dannose anche per l'essere umano.</em></p>
                   </div>
                 )}
               </div>
               <Card.Body>
-                <Card.Title className="slide-title text-center">RETI FANTASMA</Card.Title>
+                <Card.Title className="slide-title text-center"><b>RETI FANTASMA</b></Card.Title>
+
               </Card.Body>
 
             </Card>
@@ -101,7 +153,7 @@ function Carouselcomp() {
             <Card >
               <Card.Img variant="top" className="opere" src={item7} />
               <Card.Body>
-                <Card.Title className="slide-title text-center">I TRE ARCHI</Card.Title>
+                <Card.Title className="slide-title text-center"><b>I TRE ARCHI</b></Card.Title>
               </Card.Body>
 
             </Card>
@@ -111,7 +163,7 @@ function Carouselcomp() {
             <Card>
               <Card.Img variant="top" className="opere" src={item3} />
               <Card.Body>
-                <Card.Title className="slide-title text-center">ORCA</Card.Title>
+                <Card.Title className="slide-title text-center"><b>ORCA</b></Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -119,85 +171,101 @@ function Carouselcomp() {
 
         <Row xs={1} md={3} className="g-4">
           <Col>
-            <Card>
-              <div
-                className="image-container"
-                onMouseOver={showOverlay}
-                onMouseLeave={hideOverlay}
-              >
-                <Card.Img variant="top" className="opere" src={item4} />
-                {show && (
-                  
-                  <div className="overlay">
-                  
-                    <h3>Tecnica: Linoleografia</h3><br />
-                    
-                      {/* <p><em>Il polpo Cerca la propria sicurezza cambiando colore,<br></br> si mimetizza, cambia forma, si nasconde, scurisce l’acqua intorno a se e scappa veloce come una freccia.<br />
-                      Sono incredibilmente scaltri nel camuffamento. A differenza di altri animali marini dotati di abilità mimetica, i polpi non provano ad assumere i colori dell’intero habitat che li circonda (sabbia, alghe, coralli) ma scelgono un oggetto preciso (per esempio una conchiglia) e si mettono in posa per assomigliargli.<br />
-                      Sono talmente bravi nel mimetizzarsi che anche la consistenza della loro pelle può variare a scopi mimetici, possono imitare pesci velenosi e serpenti marini.</em></p>
-                */}
-                  </div>
-                 
-                )}
-              </div>
+            <Card className="number1">
+
+              <Card.Img variant="top" className="opere" src={item4} />
+
               <Card.Body>
-                <Card.Title className="slide-title text-center">OCTOPUS</Card.Title>
+
+                <Card.Title className="slide-title text-center"><b>OCTOPUS</b></Card.Title>
+
+
 
               </Card.Body>
+
+
+              <button onClick={handleClick1} >Clicca</button>
+              {isShown && (
+                <div className="hover">
+                  <Descrizioni />
+                </div>
+              )}
+
+
+
             </Card>
+
+
+
+
           </Col>
 
           <Col>
-            <Card>
+            <Card className="number-2">
+
               <Card.Img variant="top" className="opere" src={item5} />
               <Card.Body>
-                <Card.Title className="slide-title text-center">OCTOPUS/Stampa A Secco</Card.Title>
+                <Card.Title className="slide-title text-center"><b>OCTOPUS/Stampa A Secco</b></Card.Title>
               </Card.Body>
+
+              <button onClick={handleClick2}> Clicca</button>
+              {isShown2 && (
+                <div className="hover">
+                  <Descrizioni />
+                </div>
+              )}
+
+
+
+
 
             </Card>
           </Col>
 
 
           <Col>
-            <Card>
-            <div
-                className="image-container"
-                onMouseOver={showOverlay}
-                onMouseLeave={hideOverlay}
-              >
-              <Card.Img variant="top" className="opere" src={item14} />
-              {show && (
-              <div className="overlay">
-              <h3>Tecnica: maniera zucchero/acquatinta/rotella<br />
-                      Dimensioni: 180x300mm/Anno 2020</h3>
-                      {/* <p><em>IL ROSPO è forse l’animale più nostalgico e fedele perché in età adulta, torna alla pozza dove ha vissuto la giovinezza di girino per cercare la propria compagna.<br />
-                      Sono animali che subiscono una metamorfosi, nascono come animaletti, 
-                      simili a pesci per caratteristiche fisiche e morfologiche, 
-                      per poi trasformarsi in creature dotate di zampe e polmoni.<br />
-                      Gli anfibi sono infatti animali dalla “doppia vita”, 
-                      perché sospesi fra gli ambienti acquatici e quelli terrestri.<br />
-                      È però nell’acqua dello stagno che nasce il potente canto d’amore degli smeraldini, 
-                      quando la primavera ancora dorme risuona nel crepuscolo serale, 
-                      creando uno spettacolo musicale, inno alla vita dopo mesi di letargo invernale.</em></p>
-              */}
-                      </div>
-              )}
-              </div>
+            <Card className="number3">
+
+              <Card.Img variant="top" className="opere" src={item14}
+              />
               <Card.Body>
-                <Card.Title className="slide-title text-center">IL CANTO DELLO SMERALDINO</Card.Title>
+                <Card.Title className="slide-title text-center"><b>Il CANTO DELLO SMERALDINO</b></Card.Title>
+
+
               </Card.Body>
+             
+              <button onClick={handleClick3}>Clicca</button>
+              
+              {isShown3 && (
+                <div className="hover">
+
+                  <Rospo />
+
+
+
+
+
+
+                </div>
+
+              )}
+
+
+
+
+
             </Card>
           </Col>
         </Row>
 
-        <div>
+      
 
           <Row xs={1} md={3} className="g-4">
             <Col>
               <Card>
                 <Card.Img variant="top" className="opere" src={item8} />
                 <Card.Body>
-                  <Card.Title className="slide-title text-center">SPIRALI</Card.Title>
+                  <Card.Title className="slide-title text-center"><b>SPIRALI</b></Card.Title>
                 </Card.Body>
               </Card>
             </Col>
@@ -206,7 +274,7 @@ function Carouselcomp() {
               <Card>
                 <Card.Img variant="top" className="opere" src={item12} />
                 <Card.Body>
-                  <Card.Title className="slide-title text-center">NAUTILUS</Card.Title>
+                  <Card.Title className="slide-title text-center"><b>NAUTILUS</b></Card.Title>
                 </Card.Body>
               </Card>
             </Col>
@@ -216,19 +284,19 @@ function Carouselcomp() {
               <Card>
                 <Card.Img variant="top" className="opere" src={item10} />
                 <Card.Body>
-                  <Card.Title className="slide-title text-center">MANTA RAYA</Card.Title>
+                  <Card.Title className="slide-title text-center"><b>MANTA RAYA</b></Card.Title>
                 </Card.Body>
               </Card>
             </Col>
           </Row>
-        </div>
+       
 
         <Row xs={1} md={3} className="g-4">
           <Col>
             <Card>
               <Card.Img variant="top" className="opere" src={item11} />
               <Card.Body>
-                <Card.Title className="slide-title text-center">CIVETTA</Card.Title>
+                <Card.Title className="slide-title text-center"><b>CIVETTA</b></Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -237,7 +305,7 @@ function Carouselcomp() {
             <Card>
               <Card.Img variant="top" className="opere" src={item26} />
               <Card.Body>
-                <Card.Title className="slide-title text-center">AXOLOTL</Card.Title>
+                <Card.Title className="slide-title text-center"><b>AXOLOTL</b></Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -258,7 +326,7 @@ function Carouselcomp() {
             <Card>
               <Card.Img variant="top" className="opere" src={item15} />
               <Card.Body>
-                <Card.Title className="slide-title text-center">HIPPOCAMPUS/TECNICA PUNTA SECCA</Card.Title>
+                <Card.Title className="slide-title text-center"><b>HIPPOCAMPUS/TECNICA PUNTA SECCA</b></Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -267,7 +335,7 @@ function Carouselcomp() {
             <Card>
               <Card.Img variant="top" className="opere" src={item1} />
               <Card.Body>
-                <Card.Title className="slide-title text-center">MEDUSA</Card.Title>
+                <Card.Title className="slide-title text-center"><b>MEDUSA</b></Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -288,7 +356,7 @@ function Carouselcomp() {
 
               <Card.Img variant="top" className="opere" src={item19} />
               <Card.Body>
-                <Card.Title className="slide-title text-center">ARA MACAO</Card.Title>
+                <Card.Title className="slide-title text-center"><b>ARA MACAO</b></Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -297,7 +365,7 @@ function Carouselcomp() {
             <Card >
               <Card.Img variant="top" className="opere" src={item20} />
               <Card.Body>
-                <Card.Title className="slide-title text-center">LIBRO D'ARTISTA</Card.Title>
+                <Card.Title className="slide-title text-center"><b>LIBRO D'ARTISTA</b></Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -306,7 +374,7 @@ function Carouselcomp() {
             <Card>
               <Card.Img variant="top" className="opere" src={item21} />
               <Card.Body>
-                <Card.Title className="slide-title text-center">ATTRAZIONE SFERICA</Card.Title>
+                <Card.Title className="slide-title text-center"><b>ATTRAZIONE SFERICA</b></Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -328,7 +396,7 @@ function Carouselcomp() {
             <Card>
               <Card.Img variant="top" className="opere" src={item24} />
               <Card.Body>
-                <Card.Title className="slide-title text-center">THE EYE OF GOD</Card.Title>
+                <Card.Title className="slide-title text-center"><b>THE EYE OF GOD</b></Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -337,7 +405,7 @@ function Carouselcomp() {
             <Card>
               <Card.Img variant="top" className="opere" src={item25} />
               <Card.Body>
-                <Card.Title className="slide-title text-center">ARGO PANOPTES</Card.Title>
+                <Card.Title className="slide-title text-center"><b>ARGO PANOPTES</b></Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -349,7 +417,7 @@ function Carouselcomp() {
             <Card>
               <Card.Img variant="top" className="opere" src={item27} />
               <Card.Body>
-                <Card.Title className="slide-title text-center">COME TUTTO EBBE INIZIO/NASCITA</Card.Title>
+                <Card.Title className="slide-title text-center"><b>COME TUTTO EBBE INIZIO/NASCITA</b></Card.Title>
               </Card.Body>
 
             </Card>
@@ -359,7 +427,7 @@ function Carouselcomp() {
             <Card>
               <Card.Img variant="top" className="opere" src={item29} />
               <Card.Body>
-                <Card.Title className="slide-title text-center">CAPITALE EUROPEA DELLA CULTURA 2019</Card.Title>
+                <Card.Title className="slide-title text-center"><b>CAPITALE EUROPEA DELLA CULTURA 2019</b></Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -368,7 +436,7 @@ function Carouselcomp() {
             <Card>
               <Card.Img variant="top" className="opere" src={item30} />
               <Card.Body>
-                <Card.Title className="slide-title text-center"> DAI GRADONI DI SANT'ANTONIO</Card.Title>
+                <Card.Title className="slide-title text-center"> <b>DAI GRADONI DI SANT'ANTONIO</b></Card.Title>
               </Card.Body>
             </Card>
           </Col>
