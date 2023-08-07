@@ -184,7 +184,7 @@ function Carouselcomp() {
               </Card.Body>
 
 
-              <button onClick={handleClick1} >Clicca</button>
+              <button className="button" onClick={handleClick1} >Clicca</button>
               {isShown && (
                 <div className="hover">
                   <Descrizioni />
@@ -208,7 +208,7 @@ function Carouselcomp() {
                 <Card.Title className="slide-title text-center"><b>OCTOPUS/Stampa A Secco</b></Card.Title>
               </Card.Body>
 
-              <button onClick={handleClick2}> Clicca</button>
+              <button className="button" onClick={handleClick2}> Clicca</button>
               {isShown2 && (
                 <div className="hover">
                   <Descrizioni />
@@ -234,7 +234,7 @@ function Carouselcomp() {
 
               </Card.Body>
              
-              <button onClick={handleClick3}>Clicca</button>
+              <button className="button" onClick={handleClick3}>Clicca</button>
               
               {isShown3 && (
                 <div className="hover">
