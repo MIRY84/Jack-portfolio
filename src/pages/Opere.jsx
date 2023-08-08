@@ -171,7 +171,7 @@ function Carouselcomp() {
 
         <Row xs={1} md={3} className="g-4">
           <Col>
-            <Card className="number1">
+            <Card >
 
               <Card.Img variant="top" className="opere" src={item4} />
 
@@ -184,7 +184,7 @@ function Carouselcomp() {
               </Card.Body>
 
 
-              <button className="button" onClick={handleClick1} >Clicca</button>
+              <button className="button" onClick={handleClick1} >Scopri di piu'</button>
               {isShown && (
                 <div className="hover">
                   <Descrizioni />
@@ -201,14 +201,14 @@ function Carouselcomp() {
           </Col>
 
           <Col>
-            <Card className="number-2">
+            <Card >
 
               <Card.Img variant="top" className="opere" src={item5} />
               <Card.Body>
                 <Card.Title className="slide-title text-center"><b>OCTOPUS/Stampa A Secco</b></Card.Title>
               </Card.Body>
 
-              <button className="button" onClick={handleClick2}> Clicca</button>
+              <button className="button" onClick={handleClick2}> Scopri di piu'</button>
               {isShown2 && (
                 <div className="hover">
                   <Descrizioni />
@@ -224,7 +224,7 @@ function Carouselcomp() {
 
 
           <Col>
-            <Card className="number3">
+            <Card >
 
               <Card.Img variant="top" className="opere" src={item14}
               />
@@ -234,7 +234,7 @@ function Carouselcomp() {
 
               </Card.Body>
              
-              <button className="button" onClick={handleClick3}>Clicca</button>
+              <button className="button" onClick={handleClick3}>Scopri di piu'</button>
               
               {isShown3 && (
                 <div className="hover">
