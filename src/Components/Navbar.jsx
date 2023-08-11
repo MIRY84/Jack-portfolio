@@ -10,7 +10,7 @@ function ColorSchemesExample() {
   const path= window.location.pathname
   return (
     <>
-      <Navbar bg="dark" variant="dark" expand={expandBreakpoint}>
+      <Navbar sticky="top" bg="dark" variant="dark" expand={expandBreakpoint}>
         <Container>
           <Navbar.Brand>
             <img className="" width={50} height={50}
