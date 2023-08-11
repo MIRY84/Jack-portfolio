@@ -4,17 +4,21 @@ import Navbar from 'react-bootstrap/Navbar';
 import logo from "../images/jack-logo.jpeg"
 import {Link, NavLink} from "react-router-dom";
 
+const expandBreakpoint = "md";
+
 function ColorSchemesExample() {
   const path= window.location.pathname
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="dark" variant="dark" expand={expandBreakpoint}>
         <Container>
           <Navbar.Brand>
             <img className="" width={50} height={50}
             src={logo} />            
           </Navbar.Brand>
-          <Nav className="me-auto">
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className={`mx-auto ms-${expandBreakpoint}-auto me-${expandBreakpoint}-0`}>
             <NavLink to="/" className={({ isActive}) =>
               isActive ? 'nav-link active' : 'nav-link'
               }
@@ -32,6 +36,7 @@ function ColorSchemesExample() {
             <p style = {{ fontSize: "1.5em" }}>Contact </p>
             </button> 
           </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
       
