@@ -18,7 +18,7 @@ function ColorSchemesExample() {
   };
   return (
     <>
-      <Navbar expanded={expanded} expand="md" bg="dark" variant="dark" >
+      <Navbar expanded={expanded} sticky="top"expand="md" bg="dark" variant="dark" >
         <Container>
           <Navbar.Brand>
             <img className="" width={50} height={50}
