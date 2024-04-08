@@ -113,6 +113,13 @@
 .nav-link:hover {
   color: white !important;
 }
+
+h1, h2{
+  font-family: monospace;
+  margin-top: 2% !important;
+  margin-bottom: 2% !important;
+}
+
 }
   
 
@@ -146,6 +153,12 @@
     overflow-x: hidden;
   }
 
+  h1, h2{
+    font-family: monospace;
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+  }
+
   .swiper,
   .swiper-slide img {
     object-fit: contain;
@@ -156,7 +169,7 @@
     color: black;
     font-weight: bold;
     font-size: 30px;
-    font-family: 'Mark Bold' !important;
+    
   }
 
   .swiper-pagination>.swiper-pagination-bullet {
