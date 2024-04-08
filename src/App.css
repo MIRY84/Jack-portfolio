@@ -124,6 +124,10 @@
   background-color: rgb(243, 228, 228) !important;
   }
 
+  .container > .navbar-collapse{
+    flex-grow: 0 !important;
+  }
+  
   .swiper-coverflow img {
     
     width: 700px;
