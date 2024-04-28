@@ -1,7 +1,13 @@
+html, body, #root {
+ 
+  min-height: 100svh;
+}
+
 #root {
   margin: 1rem;
   background-color: rgb(243, 228, 228);
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 @media (max-width: 750px) {
@@ -43,6 +49,8 @@
   .swiper-pagination>.swiper-pagination-bullet {
     display: none;
   }
+
+  
 
 
 
@@ -133,6 +141,7 @@ h1, h2{
 
   .container > .navbar-collapse{
     flex-grow: 0 !important;
+    height: 100%;
   }
   
   .swiper-coverflow img {
@@ -158,6 +167,8 @@ h1, h2{
     margin-top: 2% !important;
     margin-bottom: 2% !important;
   }
+
+ 
 
   .swiper,
   .swiper-slide img {

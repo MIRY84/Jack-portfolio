@@ -16,7 +16,7 @@ const Footer = () => {
           <a href='http://www.facebook.com/giacomodimichinoart'role="button" className="btn btn-link" >
         <FaFacebook style = {{ color: "black", fontSize: "2.5em" }}/>
         </a>
-        <a href='mailto:giacomo.dimichino@gmail.com/' role="button" className="btn btn-link" >
+        <a href='mailto:giacomodimichinoartist@gmail.com/' role="button" className="btn btn-link" >
           
         <AiTwotoneMail style = {{ color: "black", fontSize: "2.5em" }} />
         </a>
