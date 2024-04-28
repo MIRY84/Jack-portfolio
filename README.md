@@ -11,6 +11,8 @@ I implemented 3d swiper CUBE in Home and in the pictures/art portfolio showcase 
 * react-icons npm
 * Javascript
 * CSS
+* emailJS
+
 ## SCREENSHOTS
 ![screenshot](/src/images/favorites/screenshot1.png)
 ![screenshot](/src/images/favorites/screenshotp.png)
