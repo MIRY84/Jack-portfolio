@@ -35,7 +35,7 @@ const Contact = () => {
                     <input type="text" className="form-control" placeholder="Nome" name="user_name"/>
                 </div>
                 <div className="col-8 form-group pt-2 mx-auto">
-                    <input type="email" className="form-control" placeholder="Email Address" name="user_email"/>
+                    <input type="email" className="form-control" placeholder="La tua email" name="user_email"/>
                 </div>
                 <div className="col-8 form-group pt-2 mx-auto">
                 
@@ -43,10 +43,10 @@ const Contact = () => {
                 </div>
                 <div className="col-8 form-group pt-2 mx-auto">
                 
-                    <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
+                    <textarea className="form-control" id="" cols="30" rows="8" placeholder="Il tuo messaggio" name="message"></textarea>
                 </div>
                 <div className="col-8 pt-3 pb-5 mx-center mx-auto">
-                    <input type="submit" className="btn btn-info" value="Send Message"></input>
+                    <input type="submit" className="btn btn-info" value="Invia"></input>
                 </div>
             </div>
         </Form>
