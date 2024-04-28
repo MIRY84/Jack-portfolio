@@ -35,7 +35,7 @@ const Contact = () => {
                     <input type="text" className="form-control" placeholder="Nome" name="user_name"/>
                 </div>
                 <div className="col-8 form-group pt-2 mx-auto">
-                    <input type="email" className="form-control" placeholder="Email Address" name="user_email"/>
+                    <input type="email" className="form-control" placeholder="Email Address" name="email"/>
                 </div>
                 <div className="col-8 form-group pt-2 mx-auto">
                 
