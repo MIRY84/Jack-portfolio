@@ -39,7 +39,8 @@ function ColorSchemesExample() {
               }
             >
              <p style = {{ fontSize: "1.5em" }}> Opere </p>
-            </Nav.Link>     
+            </Nav.Link>   
+              
             <Nav.Link as={Link} to="/contact" onClick={handleNavItemClick}
              className={({ isActive}) =>
               isActive ? 'nav-link active' : 'nav-link'
